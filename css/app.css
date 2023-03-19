@@ -1,5 +1,31 @@
-h1:focus {
-    outline: none;
+:root {
+    --fore: #e8e8e8;
+    --back: #171717;
+    --high: #ffbf00;
+}
+
+body {
+    color: var(--fore);
+    background-color: var(--back);
+    user-select: none;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+h1, h2 {
+    font-variant: small-caps;
+}
+
+h1 {
+    color: var(--high);
+}
+
+a {
+    color: var(--high);
+    font-size: small;
+    text-decoration: none;
 }
 
 #blazor-error-ui {
