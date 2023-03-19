@@ -1,6 +1,6 @@
 {
   "profiles": {
-    "https": {
+    "debug": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,
