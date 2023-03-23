@@ -4,9 +4,12 @@
     --high: #ffbf00;
 }
 
-body {
+html, body {
     color: var(--fore);
     background-color: var(--back);
+    margin: .5rem;
+    margin-top: 0;
+    padding: 0;
     user-select: none;
 }
 
