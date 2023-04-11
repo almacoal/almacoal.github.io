@@ -1,10 +1,38 @@
-﻿@inherits LayoutComponentBase
+﻿@using homepage.Pages
+@inherits LayoutComponentBase
 
-<MudThemeProvider IsDarkMode="true"/>
+<MudThemeProvider Theme="theme" IsDarkMode="false"/>
 <MudDialogProvider/>
 <MudSnackbarProvider/>
 <MudLayout>
+    <Header/>
     <MudMainContent>
         @Body
     </MudMainContent>
+    <Footer/>
 </MudLayout>
+
+@code {
+    static string
+        dark = "#272727",
+        darker = "#171717",
+        high = "#a68d3f",
+        light = "#d9d9d9",
+        lighter = "#e9e9e9";
+    MudTheme theme = new MudTheme() {
+        Palette = new Palette() {
+            Background = light,
+            TextPrimary = darker,
+            AppbarBackground = lighter,
+            AppbarText = dark,
+            Primary = high,
+            Secondary = lighter,
+        },
+        Typography = new Typography() {
+            Default = new Default() {
+                FontFamily = new[] { "Atkinson Hyperlegible", "sans-serif" },
+                FontSize = "1.1rem",
+            }
+        }
+    };
+}

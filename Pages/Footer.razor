@@ -1,0 +1,15 @@
+<MudAppBar Bottom="true" Dense="true" Color="Color.Transparent" Elevation="0">
+    <MudSpacer/>
+    <MudText Typo="Typo.caption" Align="Align.Center">
+        Almacoal © @yearInterval
+    </MudText>
+    <MudSpacer/>
+</MudAppBar>
+
+@code {
+    static ushort firstYear = 2023,
+        currentYear = (ushort)DateTime.Now.Year;
+    string yearInterval = currentYear == firstYear
+        ? $"{firstYear}"
+        : $"{firstYear}-{currentYear}";
+}
