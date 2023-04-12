@@ -1,5 +1,6 @@
 ﻿@page "/"
 
-<MudExpansionPanels DisableBorders="true" Elevation="0" Color="Color.Primary">
-    <About/>
-</MudExpansionPanels>
+<MudStack Spacing="0">
+    <section id="about"><About TitleSide="Align.End"/></section>
+    <section id="timeline"><Timeline TitleSide="Align.Start"/></section>
+</MudStack>

@@ -1,0 +1,282 @@
+@using System.Globalization;
+
+<MudPaper Elevation="0" Square="true"  Style="background:transparent; padding:1rem 1.5rem;">
+    <MudText Typo="Typo.h3" Align="@TitleSide">@fullExp_str of experience</MudText>
+    <MudTimeline DisableModifiers="true">
+
+        @* YLD, NewDay *@
+        <MudTimelineItem Variant="Variant.Filled">
+            <ItemDot>
+                <MudIcon Icon="@Icons.Material.Rounded.Work" Size="Size.Large" Style="color:purple;"/>
+            </ItemDot>
+            <ItemOpposite>
+                <MudCard Elevation="0" Style="background:transparent;">
+                    <MudText Typo="Typo.body1">@yld_end_str</MudText>
+                    <MudText Typo="Typo.body2">@yld_per_str</MudText>
+                    <MudText Typo="Typo.body1">@yld_str_str</MudText>
+                </MudCard>
+            </ItemOpposite>
+            <ItemContent>
+                <MudCard Style="background:#e9e9e9;padding:.5rem 1rem;text-align:left;">
+                    <MudText Typo="Typo.h6">Senior software engineer / SEIII</MudText>
+                    <MudText Typo="Typo.body1">YLD, outsourced for NewDay</MudText>
+                    <MudText Typo="Typo.body2">Remote & Lisbon, Portugal</MudText>
+                </MudCard>
+            </ItemContent>
+        </MudTimelineItem>
+
+        @* CGI, EDPP *@
+        <MudTimelineItem Variant="Variant.Filled">
+            <ItemDot>
+                <MudIcon Icon="@Icons.Material.Rounded.Work" Size="Size.Large" Style="color:darkred;"/>
+            </ItemDot>
+            <ItemOpposite>
+                <MudText Typo="Typo.body1">@edpp_end_str</MudText>
+                <MudText Typo="Typo.body2">@edpp_per_str</MudText>
+                <MudText Typo="Typo.body1">@edpp_str_str</MudText>
+            </ItemOpposite>
+            <ItemContent>
+                <MudCard Style="background:#e9e9e9;padding:.5rem 1rem;text-align:right;">
+                    <MudText Typo="Typo.h6">Full-stack engineer</MudText>
+                    <MudText Typo="Typo.body1">CGI, outsourced for EDPP</MudText>
+                    <MudText Typo="Typo.body2">Lisbon, Portugal & Remote</MudText>
+                </MudCard>
+            </ItemContent>
+        </MudTimelineItem>
+
+        @* CGIr *@
+        <MudTimelineItem Variant="Variant.Filled">
+            <ItemDot>
+                <MudIcon Icon="@Icons.Material.Rounded.Work" Size="Size.Large" Style="color:darkred;"/>
+            </ItemDot>
+            <ItemOpposite>
+                <MudText Typo="Typo.body1">@cgir_end_str</MudText>
+                <MudText Typo="Typo.body2">@cgir_per_str</MudText>
+                <MudText Typo="Typo.body1">@cgir_str_str</MudText>
+            </ItemOpposite>
+            <ItemContent>
+                <MudCard Style="background:#e9e9e9;padding:.5rem 1rem;text-align:left;">
+                    <MudText Typo="Typo.h6">Technical consultant</MudText>
+                    <MudText Typo="Typo.body1">CGI, RMS platform</MudText>
+                    <MudText Typo="Typo.body2">Lisbon, Portugal</MudText>
+                </MudCard>
+            </ItemContent>
+        </MudTimelineItem>
+
+        @* CGIw *@
+        <MudTimelineItem Variant="Variant.Filled">
+            <ItemDot>
+                <MudIcon Icon="@Icons.Material.Rounded.Work" Size="Size.Large" Style="color:darkred;"/>
+            </ItemDot>
+            <ItemOpposite>
+                <MudText Typo="Typo.body1">@cgiw_end_str</MudText>
+                <MudText Typo="Typo.body2">@cgiw_per_str</MudText>
+                <MudText Typo="Typo.body1">@cgiw_str_str</MudText>
+            </ItemOpposite>
+            <ItemContent>
+                <MudCard Style="background:#e9e9e9;padding:.5rem 1rem;text-align:right;">
+                    <MudText Typo="Typo.h6">Technical consultant</MudText>
+                    <MudText Typo="Typo.body1">CGI, WEMS project</MudText>
+                    <MudText Typo="Typo.body2">Lisbon, Portugal</MudText>
+                </MudCard>
+            </ItemContent>
+        </MudTimelineItem>
+
+        @* CGIj *@
+        <MudTimelineItem Variant="Variant.Filled">
+            <ItemDot>
+                <MudIcon Icon="@Icons.Material.Rounded.Work" Size="Size.Large" Style="color:darkred;"/>
+            </ItemDot>
+            <ItemOpposite>
+                <MudText Typo="Typo.body1">@cgij_end_str</MudText>
+                <MudText Typo="Typo.body2">@cgij_per_str</MudText>
+                <MudText Typo="Typo.body1">@cgij_str_str</MudText>
+            </ItemOpposite>
+            <ItemContent>
+                <MudCard Style="background:#e9e9e9;padding:.5rem 1rem;text-align:left;">
+                    <MudText Typo="Typo.h6">Junior consultant</MudText>
+                    <MudText Typo="Typo.body1">CGI, RMS platform</MudText>
+                    <MudText Typo="Typo.body2">Lisbon, Portugal</MudText>
+                </MudCard>
+            </ItemContent>
+        </MudTimelineItem>
+
+        @* MCS *@
+        <MudTimelineItem Variant="Variant.Filled">
+            <ItemDot>
+                <MudIcon Icon="@Icons.Material.Rounded.Work" Size="Size.Large" Style="color:darkblue;"/>
+            </ItemDot>
+            <ItemOpposite>
+                <MudText Typo="Typo.body1">@mcs_end_str</MudText>
+                <MudText Typo="Typo.body2">@mcs_per_str</MudText>
+                <MudText Typo="Typo.body1">@mcs_str_str</MudText>
+            </ItemOpposite>
+            <ItemContent>
+                <MudCard Style="background:#e9e9e9;padding:.5rem 1rem;text-align:right;">
+                    <MudText Typo="Typo.h6">Project engineer</MudText>
+                    <MudText Typo="Typo.body1">Microsegur</MudText>
+                    <MudText Typo="Typo.body2">Lisbon, Portugal</MudText>
+                </MudCard>
+            </ItemContent>
+        </MudTimelineItem>
+
+        @* LWP *@
+        <MudTimelineItem Variant="Variant.Filled">
+            <ItemDot>
+                <MudIcon Icon="@Icons.Material.Rounded.Work" Size="Size.Large" Style="color:slategray;"/>
+            </ItemDot>
+            <ItemOpposite>
+                <MudText Typo="Typo.body1">@lwp_end_str</MudText>
+                <MudText Typo="Typo.body2">@lwp_per_str</MudText>
+                <MudText Typo="Typo.body1">@lwp_str_str</MudText>
+            </ItemOpposite>
+            <ItemContent>
+                <MudCard Style="background:#e9e9e9;padding:.5rem 1rem;text-align:left;">
+                    <MudText Typo="Typo.h6">Wind turbine technician</MudText>
+                    <MudText Typo="Typo.body1">LusoWindPower, outsourced for Vestas</MudText>
+                    <MudText Typo="Typo.body2">Osterrade, Germany</MudText>
+                </MudCard>
+            </ItemContent>
+        </MudTimelineItem>
+
+        @* BmT *@
+        <MudTimelineItem Variant="Variant.Filled">
+            <ItemDot>
+                <MudIcon Icon="@Icons.Material.Rounded.Work" Size="Size.Large" Style="color:darkorange;"/>
+            </ItemDot>
+            <ItemOpposite>
+                <MudText Typo="Typo.body1">@bmt_end_str</MudText>
+                <MudText Typo="Typo.body2">@bmt_per_str</MudText>
+                <MudText Typo="Typo.body1">@bmt_str_str</MudText>
+            </ItemOpposite>
+            <ItemContent>
+                <MudCard Style="background:#e9e9e9;padding:.5rem 1rem;text-align:right;">
+                    <MudText Typo="Typo.h6">Front desk clerck</MudText>
+                    <MudText Typo="Typo.body1">BotameTinta</MudText>
+                    <MudText Typo="Typo.body2">Lisbon, Portugal</MudText>
+                </MudCard>
+            </ItemContent>
+        </MudTimelineItem>
+
+        @* Ulv *@
+        <MudTimelineItem Variant="Variant.Filled">
+            <ItemDot>
+                <MudIcon Icon="@Icons.Material.Rounded.WorkHistory" Size="Size.Large" Style="color:blue;"/>
+            </ItemDot>
+            <ItemOpposite>
+                <MudText Typo="Typo.body1">@ulv_end_str</MudText>
+                <MudText Typo="Typo.body2">@ulv_per_str</MudText>
+                <MudText Typo="Typo.body1">@ulv_str_str</MudText>
+            </ItemOpposite>
+            <ItemContent>
+                <MudCard Style="background:#e9e9e9;padding:.5rem 1rem;text-align:left;">
+                    <MudText Typo="Typo.h6">Engineering intern</MudText>
+                    <MudText Typo="Typo.body1">Unilever, FIMA complex, Olá Factory</MudText>
+                    <MudText Typo="Typo.body2">Santa Iria de Azoia, Portugal</MudText>
+                </MudCard>
+            </ItemContent>
+        </MudTimelineItem>
+
+        @* ISEL *@
+        <MudTimelineItem Variant="Variant.Filled">
+            <ItemDot>
+                <MudIcon Icon="@Icons.Material.Rounded.School" Size="Size.Large"/>
+            </ItemDot>
+            <ItemOpposite>
+                <MudText Typo="Typo.body1">@isel_end_str</MudText>
+                <MudText Typo="Typo.body2">@isel_per_str</MudText>
+                <MudText Typo="Typo.body1">@isel_str_str</MudText>
+            </ItemOpposite>
+            <ItemContent>
+                <MudCard Style="background:#e9e9e9;padding:.5rem 1rem;text-align:right;">
+                    <MudText Typo="Typo.h6">Electrical Engineering, B.E.</MudText>
+                    <MudText Typo="Typo.body1">ISEL — Instituto Superior de Engenharia de Lisboa</MudText>
+                    <MudText Typo="Typo.body2">Lisbon, Portugal</MudText>
+                </MudCard>
+            </ItemContent>
+        </MudTimelineItem>
+
+    </MudTimeline>
+</MudPaper>
+
+@code {
+    [Parameter]
+    public Align TitleSide { get; set; }
+
+    static LocalDate
+        yld_end = new LocalDate(2023, 03, 17),
+        yld_str = new LocalDate(2022, 10, 31),
+        edpp_end = new LocalDate(2022, 10, 17),
+        edpp_str = new LocalDate(2021, 07, 19),
+        cgir_end = edpp_end,
+        cgir_str = new LocalDate(2019, 09, 19),
+        cgiw_end = new LocalDate(2020, 02, 16),
+        cgiw_str = new LocalDate(2018, 11, 16),
+        cgij_end = new LocalDate(2018, 11, 16),
+        cgij_str = new LocalDate(2016, 11, 16),
+        mcs_end = new LocalDate(2016, 08, 26),
+        mcs_str = new LocalDate(2015, 08, 03),
+        lwp_end = new LocalDate(2012, 01, 31),
+        lwp_str = new LocalDate(2011, 11, 16),
+        bmt_end = new LocalDate(2011, 10, 28),
+        bmt_str = new LocalDate(2010, 07, 19),
+        ulv_end = new LocalDate(2008, 02, 29),
+        ulv_str = new LocalDate(2008, 02, 04),
+        isel_end = new LocalDate(2015, 07, 13),
+        isel_str = new LocalDate(2007, 09, 17);
+    static string
+        yld_end_str = Stringify(yld_end),
+        yld_str_str = Stringify(yld_str),
+        yld_per_str = Stringify(yld_str, yld_end),
+        edpp_end_str = Stringify(edpp_end),
+        edpp_str_str = Stringify(edpp_str),
+        edpp_per_str = Stringify(edpp_str, edpp_end),
+        cgir_end_str = Stringify(cgir_end),
+        cgir_str_str = Stringify(cgir_str),
+        cgir_per_str = Stringify(cgir_str, cgir_end),
+        cgiw_end_str = Stringify(cgiw_end),
+        cgiw_str_str = Stringify(cgiw_str),
+        cgiw_per_str = Stringify(cgiw_str, cgiw_end),
+        cgij_end_str = Stringify(cgij_end),
+        cgij_str_str = Stringify(cgij_str),
+        cgij_per_str = Stringify(cgij_str, cgij_end),
+        mcs_end_str = Stringify(mcs_end),
+        mcs_str_str = Stringify(mcs_str),
+        mcs_per_str = Stringify(mcs_str, mcs_end),
+        lwp_end_str = Stringify(lwp_end),
+        lwp_str_str = Stringify(lwp_str),
+        lwp_per_str = Stringify(lwp_str, lwp_end),
+        bmt_end_str = Stringify(bmt_end),
+        bmt_str_str = Stringify(bmt_str),
+        bmt_per_str = Stringify(bmt_str, bmt_end),
+        ulv_end_str = Stringify(ulv_end),
+        ulv_str_str = Stringify(ulv_str),
+        ulv_per_str = Stringify(ulv_str, ulv_end),
+        isel_end_str = Stringify(isel_end),
+        isel_str_str = Stringify(isel_str),
+        isel_per_str = Stringify(isel_str, isel_end);
+    
+    static string Stringify(LocalDate ld) =>
+        ld.ToDateOnly().ToString("MMM/yy");
+    static string Stringify(LocalDate str, LocalDate end) {
+        Period per = Period.Between(str, end);
+        int mo = per.Months + (per.Days > 14 ? 1 : 0),
+            ye = per.Years + (mo > 12 ? 1 : 0);
+        string y = ye != 0 ? $"{ye}y" : string.Empty,
+            m = mo != 0 ? $"{mo}m" : string.Empty,
+            d = per.Days != 0 ? $"{per.Days}d" : string.Empty;
+        return $"{y} {m}".Replace("  ", " ").Trim();
+    }
+
+    static Period fullExp =
+        Period.Between(ulv_str, ulv_end) +
+        Period.Between(bmt_str, bmt_end) +
+        Period.Between(lwp_str, lwp_end) +
+        Period.Between(mcs_str, mcs_end) +
+        Period.Between(cgij_str, cgij_end) +
+        Period.Between(cgiw_str, cgiw_end) +
+        Period.Between(cgir_str, cgir_end) +
+        Period.Between(edpp_str, edpp_end) +
+        Period.Between(yld_str, yld_end);
+    static string fullExp_str = Math.Round(fullExp.Years + (float)fullExp.Months/12, 1) + " years";
+}
