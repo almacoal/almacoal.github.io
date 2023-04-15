@@ -1,10 +1,17 @@
-<MudAppBar Elevation="0">
+<MudAppBar>
     <MudButton Href="/" Variant="Variant.Text">
         <MudText Typo="Typo.h4">Hi, I'm&nbsp;</MudText>
         <MudText Typo="Typo.h4" Color="Color.Primary">Alex</MudText>
         <MudText Typo="Typo.h4">.</MudText>
     </MudButton>
+
     <MudSpacer/>
-    <MudButton Href="#about">About</MudButton>
-    <MudButton Href="#experience">Experience</MudButton>
+
+    <HeaderButton Name="About" Icon="@Icons.Material.Rounded.Person"/>
+    <HeaderButton Name="Experience" Icon="@Icons.Material.Rounded.Work"/>
+
+    <MudDivider Vertical="true" Light="false" DividerType="DividerType.Middle"/>
+
+    <MudIconButton Title="LinkedIn" Icon="@Icons.Custom.Brands.LinkedIn" Color="Color.Primary" Href="https://www.linkedin.com/in/almacoal/" Target="_blank"/>
+    <MudIconButton Title="Instagram" Icon="@Icons.Custom.Brands.Instagram" Color="Color.Primary" Href="https://www.instagram.com/almacoal/" Target="_blank"/>
 </MudAppBar>

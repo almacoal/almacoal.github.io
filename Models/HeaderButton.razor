@@ -1,0 +1,17 @@
+<button onclick="document.getElementById('@NameLower').scrollIntoView();window.location.href='@NameHashed'">
+    <span class="mud-button-root mud-button mud-button-text mud-button-text-default mud-button-text-size-medium mud-ripple">
+        @if (Icon != null){
+            <MudIcon Icon="@Icon" Color="Color.Primary" Size="Size.Small" Style="margin-right:.5rem;"/>
+        }
+        @Name
+    </span>
+</button>
+
+@code {
+    [Parameter]
+    public string Name { get; set; } = "Button";
+    string NameLower => Name.ToLower();
+    string NameHashed => $"#{NameLower}";
+    [Parameter]
+    public string? Icon { get; set; }
+}
