@@ -5,6 +5,22 @@ html, body {
     scroll-behavior: smooth;
 }
 
+.spinner {
+    border: 1vw solid #c9c9c9;
+    border-top: 1vw solid #a68d3f;
+    border-radius: 50%;
+    width: 4vw;
+    height: 4vw;
+    animation: spin 1000ms linear infinite;
+    position: absolute;
+    top: 44vh;
+    left: 50vw;
+}
+@keyframes spin {
+    0% { transform: rotate(0deg) }
+    100% { transform: rotate(360deg) }
+}
+
 section {
     scroll-margin-top: 48px;
 }
