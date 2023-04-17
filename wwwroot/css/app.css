@@ -5,6 +5,12 @@ html, body {
     scroll-behavior: smooth;
 }
 
+@media (width <= 1080px) {
+    html{
+        font-size: 150%;
+    }
+}
+
 .spinner {
     border: 1vw solid #c9c9c9;
     border-top: 1vw solid #a68d3f;
