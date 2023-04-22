@@ -1,2 +1,0 @@
-[![Build](https://github.com/almacoal/almacoal.github.io/actions/workflows/publish.yml/badge.svg)](https://github.com/almacoal/almacoal.github.io/actions/workflows/publish.yml)
-[![Deploy](https://github.com/almacoal/almacoal.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/almacoal/almacoal.github.io/actions/workflows/pages/pages-build-deployment)
