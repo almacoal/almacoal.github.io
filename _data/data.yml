@@ -46,7 +46,7 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      I’ve always been a hands-on person, with an overarching pursuit for excellent delivery and proper feedback between my clients and colleagues. To achieve this, I have worked with several industries since 2008, to learn what led them further and what were their woes: from a food manufacture plant and their specific requirements; to a wind turbine construction site abroad and their multi-cultural, multi-asset team; to projecting electronic safety mechanisms and even preparing homeland security solutions to a wide range of customers; to maintaining and improving a management platform for said wind, solar, hydro and hybrid generators through a multitude of protocols, automations and custom client requests; and lately, to support the inner API ‟spine” for upcoming clients for a FinTech.
+      I’ve always been a hands-on person, with an overarching pursuit for excellent delivery and proper feedback between my clients and colleagues. To achieve this, I have worked with several industries since 2008, to learn what led them further and what were their woes: from food manufacturing, to wind turbine construction abroad, to electronic safety and homeland security, to renewable energy management platform, to FinTech, and now with Insurance.
 education:
     title: Education
     info:
@@ -60,6 +60,18 @@ education:
 experiences:
     title: Experience
     info:
+      - role: Senior Developer
+        time: May 2023 — Present
+        company: Innowave, outsourced by Wire IT
+        location: Remote (Lisbon, Portugal)
+        details: |
+          (to be disclosed)
+          - Industry: Insurance
+          - Skills:
+            - .NET (C#)
+            - Microsoft Azure
+        # Ref.: INW
+
       - role: Senior Software Engineer (SE III)
         time: Oct 2022 — Mar 2023
         company: NewDay, outsourced by YLD
@@ -217,4 +229,4 @@ skills:
         level: 85%
 
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>, adapted <i class="fas fa-wrench"></i> by <a href="https://www.almacoal.net" target="_blank">Alexandre Alves</a>
+    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>, <i class="fas fa-wrench"></i> by <a href="https://www.almacoal.net" target="_blank">Alexandre Alves</a>
