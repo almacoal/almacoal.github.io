@@ -46,7 +46,7 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      I’ve always been a hands-on person, with an overarching pursuit for excellent delivery and proper feedback between my clients and colleagues. To achieve this, I have worked with several industries since 2008, to learn what led them further and what were their woes: from food manufacturing, to wind turbine construction abroad, to electronic safety and homeland security, to renewable energy management platform, to FinTech, and now with Insurance.
+      I’ve always been a hands-on person, with an overarching pursuit for excellent delivery and proper feedback between my clients and colleagues. To achieve this, I have worked with several industries since 2008, to learn what led them further and what were their woes: from food manufacturing, to wind turbine construction abroad, to electronic safety and homeland security, to renewable energy, to fintech, and now with insurance.
 education:
     title: Education
     info:
@@ -62,10 +62,10 @@ experiences:
     info:
       - role: Senior Developer
         time: May 2023 — Present
-        company: Innowave, outsourced by Wire IT
-        location: Remote (Lisbon, Portugal)
+        company: Innowave, for Ageas Portugal, outsourced by Wire IT
+        location: Hybrid (Lisbon, Portugal)
         details: |
-          (to be disclosed)
+          APIM Manager
           - Industry: Insurance
           - Skills:
             - .NET (C#)
