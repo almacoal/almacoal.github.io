@@ -60,12 +60,12 @@ education:
 experiences:
     title: Experience
     info:
-      - role: Senior Developer
+      - role: Senior DevOps Engineer
         time: May 2023 — Present
         company: Innowave, for Ageas Portugal, outsourced by Wire IT
         location: Hybrid (Lisbon, Portugal)
         details: |
-          APIM Manager
+          APIM Manager for all Client's internal (and some external) APIs, ranging from publication  to security and good practices' validation.
           - Industry: Insurance
           - Skills:
             - .NET (C#)
