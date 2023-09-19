@@ -203,10 +203,12 @@ experiences:
 projects:
     title: Projects
     intro: >
-      Some tools I've created in the past:
+      Some tools I've created in the past and maintain currently:
     assignments:
       - title: RMS DB Builder
         tagline: CGI's proprietary tool to help configure assets on the RMS platform
+      - title: APIM BackOffice
+        tagline: A second-generation tool to automate multiple mundate tasks within all intances of Azure's APIM services
 
 oss:
     title: OSS Contributions
