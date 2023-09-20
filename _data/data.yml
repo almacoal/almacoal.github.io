@@ -46,7 +46,7 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      I’ve always been a hands-on person, with an overarching pursuit for excellent delivery and proper feedback between my clients and colleagues. To achieve this, I have worked with several industries since 2008, to learn what led them further and what were their woes: from food manufacturing, to wind turbine construction abroad, to electronic safety and homeland security, to renewable energy, to fintech, and now with insurance.
+      I’ve always been a hands-on person, with an overarching pursuit for excellent delivery and proper feedback between my clients and colleagues. To achieve this, I have worked with several industries since 2008, to learn what led them further and what were their woes: from food manufacturing, to wind turbine construction abroad, electronic safety and homeland security, renewable energy, fintech, and now with insurance.
 education:
     title: Education
     info:
@@ -65,11 +65,13 @@ experiences:
         company: Innowave, for Ageas Portugal, outsourced by Wire IT
         location: Hybrid (Lisbon, Portugal)
         details: |
-          APIM Manager for all Client's internal (and some external) APIs, ranging from publication  to security and good practices' validation.
+          APIM Manager for all Client's internal (and some external) APIs, ranging from publication to security and good practices' validation.
           - Industry: Insurance
           - Skills:
             - .NET (C#)
+            - Minimal APIs
             - Microsoft Azure
+            - Azure DevOps
         # Ref.: INW
 
       - role: Senior Software Engineer (SE III)
@@ -201,14 +203,14 @@ experiences:
         # Ref.: Ola
 
 projects:
-    title: Projects
+    title: Projects and Tools
     intro: >
       Some tools I've created in the past or currently:
     assignments:
       - title: RMS DB Builder
         tagline: CGI's proprietary tool to help configure assets on the RMS platform
-      - title: APIM BackOffice & Ageas APIM.Ops
-        tagline: A second-generation tool to automate multiple mundane tasks within all intances of Ageas' Azure APIM services
+      - title: APIM BackOffice &amp; Ageas APIM.Ops
+        tagline: A second-generation tool to automate multiple mundane tasks within all instances of Ageas' Azure APIM services
 
 oss:
     title: OSS Contributions
@@ -231,4 +233,4 @@ skills:
         level: 85%
 
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>, <i class="fas fa-wrench"></i> by <a href="https://www.almacoal.net" target="_blank">Alexandre Alves</a>
+    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>, <i class="fas fa-wrench"></i> by <a href="https://www.almacoal.net" target="_blank">Alexandre Alves</a><br/>
