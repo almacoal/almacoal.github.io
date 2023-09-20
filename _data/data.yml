@@ -207,7 +207,7 @@ projects:
     assignments:
       - title: RMS DB Builder
         tagline: CGI's proprietary tool to help configure assets on the RMS platform
-      - title: APIM BackOffice
+      - title: APIM BackOffice & Ageas APIM.Ops
         tagline: A second-generation tool to automate multiple mundane tasks within all intances of Ageas' Azure APIM services
 
 oss:
