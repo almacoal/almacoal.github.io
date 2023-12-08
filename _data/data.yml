@@ -18,7 +18,7 @@ sidebar:
     citizenship: Lisbon, Portugal (available to relocate)
     website: almacoal.net #do not add http://
     linkedin: almacoal
-    github: # almacoal
+    github: almacoal
     telegram: # add your nickname without '@' sign
     gitlab:
     bitbucket:
@@ -55,8 +55,8 @@ education:
         time: 2007 — 2015
         details: |
           Electrical engineering, specialized in:
-            - Industrial automation
-            - Energy grids
+            - Industrial Automation
+            - (Electrical) Energy
 experiences:
     title: Experience
     info:
@@ -65,14 +65,21 @@ experiences:
         company: Innowave, for Ageas Portugal, outsourced by Wire IT
         location: Hybrid (Lisbon, Portugal)
         details: |
-          APIM Manager for all Client's internal (and some external) APIs, ranging from publication to security and good practices' validation.
+          APIM Manager for all Ageas' internal (and some external) APIs, ranging from publication to security, logging and good practices' validation.
+          Creator and maintainer of Ageas' APIM.Ops, automation platform of processes and dashboards for APIM instances and connected cloud services
           - Industry: Insurance
           - Skills:
-            - .NET (C#)
-            - Minimal APIs
+            - .NET (C#, Minimal APIs)
+            - Microservices and YAML CI/CD pipelines
             - Microsoft Azure
-            - Azure DevOps
-        # Ref.: INW
+              - Function Apps
+              - EventHub and Azure Data Explorer
+              - VMs and IIS deployment
+              - ServiceBus
+              - Azure DevOps suite
+              - PowerAutomate
+            - Atlassian (Confluence)
+        # Ref.: Polaris
 
       - role: Senior Software Engineer (SE III)
         time: Oct 2022 — Mar 2023
@@ -110,6 +117,7 @@ experiences:
         location: Lisbon, Portugal & Remote
         details: |
           Development, implementation and maintenance of CGI's proprietary RMS platform (custom, cloud-first SCADA solution for renewable assets worldwide)
+          Creator and former maintainer of RMS DB Builder, CGI's proprietary tool to help configure assets on the RMS platform
           - Industry: Utilities (Renewable Energy)
           - Skills:
             - Microsoft Office (Excel, Word)
@@ -163,9 +171,9 @@ experiences:
           - Skills:
             - Project coordination and implementation, tender response
             - Microsoft Office (Word, Excel, Access, Project)
-            - AutoDesk AutoCAD
             - Electronic safety (fire, intrusion and CO detection, access control, CCTV)
             - Homeland security (metal, x-ray, radiation, explosive and narcotics detection, people, baggage and parcel check)
+            - AutoDesk AutoCAD
         # Ref.: MCS
 
       - role: Wind Turbine Technician
@@ -173,7 +181,7 @@ experiences:
         company: Vestas, outsourced by LusoWindPower
         location: Osterrade, Germany
         details: |
-          Full wind turbine erection and construction (first Vestas V90-2MW Mk9), from steel tower to ready-for-commissioning checks
+          Wind turbine erection and construction (Vestas V90-2MW Mk9), from steel tower to ready-for-commissioning checks
           - Industry: Construction (Electrical Generators)
           - Skills:
             - Electrician work
@@ -210,7 +218,7 @@ projects:
       - title: RMS DB Builder
         tagline: CGI's proprietary tool to help configure assets on the RMS platform
       - title: APIM BackOffice &amp; Ageas APIM.Ops
-        tagline: A second-generation tool to automate multiple mundane tasks within all instances of Ageas' Azure APIM services
+        tagline: Ageas' tool and platform to automate multiple tasks within all instances of Ageas' Azure APIM services
 
 oss:
     title: OSS Contributions
