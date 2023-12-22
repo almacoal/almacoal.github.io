@@ -8,7 +8,7 @@ sidebar:
 
     # Profile information
     name: Alexandre "Alex" Alves
-    tagline: Electrical Engineer
+    tagline: Automation Engineer
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -215,10 +215,10 @@ projects:
     intro: >
       Some tools I've created in the past or currently:
     assignments:
+      - title: APIM BackOffice &amp; Ageas APIM.Ops
+        tagline: Ageas' tools and platform to automate multiple tasks within all instances of Ageas' Azure APIM services
       - title: RMS DB Builder
         tagline: CGI's proprietary tool to help configure assets on the RMS platform
-      - title: APIM BackOffice &amp; Ageas APIM.Ops
-        tagline: Ageas' tool and platform to automate multiple tasks within all instances of Ageas' Azure APIM services
 
 oss:
     title: OSS Contributions
