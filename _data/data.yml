@@ -66,7 +66,7 @@ experiences:
         location: Hybrid (Lisbon, Portugal)
         details: |
           APIM Manager for all Ageas' internal (and some external) APIs, ranging from publication to security, logging and good practices' validation.
-          Creator and maintainer of Ageas' APIM.Ops, automation platform of processes and dashboards for APIM instances and connected cloud services
+          Creator and maintainer of Ageas' APIM.Ops, automation platform of processes and dashboards for APIM instances and connected cloud services.
           - Industry: Insurance
           - Skills:
             - .NET (C#, Minimal APIs)
@@ -101,7 +101,7 @@ experiences:
         company: EDP Production, outsourced by CGI
         location: Hybrid (Lisbon, Portugal)
         details: |
-          Maintenance and improvement of a monitoring and reporting system
+          Maintenance and improvement of a monitoring and reporting system.
           - Industry: Utilities (Renewable Energy)
           - Skills:
             - .NET (C#, ASP.NET)
@@ -114,10 +114,10 @@ experiences:
       - role: Technical Consultant
         time: Sep 2019 — Oct 2022
         company: CGI
-        location: Lisbon, Portugal & Remote
+        location: Hybrid (Lisbon, Portugal)
         details: |
           Development, implementation and maintenance of CGI's proprietary RMS platform (custom, cloud-first SCADA solution for renewable assets worldwide)
-          Creator and former maintainer of RMS DB Builder, CGI's proprietary tool to help configure assets on the RMS platform
+          Creator and former maintainer of RMS DB Builder, CGI's proprietary tool to help configure assets on the RMS platform.
           - Industry: Utilities (Renewable Energy)
           - Skills:
             - Microsoft Office (Excel, Word)
@@ -135,7 +135,7 @@ experiences:
         company: CGI, for EDP Renewables
         location: Lisbon, Portugal
         details: |
-          Integration and maintenance of the WEMS project (based on CGI's RMS platform)
+          Integration and maintenance of the WEMS project (based on CGI's RMS platform).
           - Industry: Utilities (Renewable Energy)
           - Skills:
             - Project implementation, client-faced
@@ -152,7 +152,7 @@ experiences:
         company: CGI, for EDP Renewables
         location: Lisbon, Portugal
         details: |
-          Integration and maintenance of the WEMS project (based on CGI's RMS platform)
+          Integration and maintenance of the WEMS project (based on CGI's RMS platform).
           - Industry: Utilities (Renewable Energy)
           - Skills:
             - Project implementation, client-faced (Waterfall)
@@ -166,7 +166,7 @@ experiences:
         company: Microsegur
         location: Cascais, Portugal
         details: |
-          Homeland security and electronic passive security systems' product and client/project manager
+          Homeland security and electronic passive security systems' product and client/project manager.
           - Industry: Safety (Electronic and Homeland)
           - Skills:
             - Project coordination and implementation, tender response
@@ -181,7 +181,7 @@ experiences:
         company: Vestas, outsourced by LusoWindPower
         location: Osterrade, Germany
         details: |
-          Wind turbine erection and construction (Vestas V90-2MW Mk9), from steel tower to ready-for-commissioning checks
+          Wind turbine erection and construction (Vestas V90-2MW Mk9), from steel tower to ready-for-commissioning checks.
           - Industry: Construction (Electrical Generators)
           - Skills:
             - Electrician work
@@ -203,7 +203,7 @@ experiences:
         company: Unilever
         location: Sta. Iria de Azoia, Portugal
         details: |
-          Engineering team at Olá factory, FIMA complex
+          Engineering team at Olá factory, FIMA complex.
           - Industry: Food manufacture
           - Skills:
             - Process control
@@ -216,18 +216,18 @@ projects:
       Some tools I've created in the past or currently:
     assignments:
       - title: APIM BackOffice &amp; Ageas APIM.Ops
-        tagline: Ageas' tools and platform to automate multiple tasks within all instances of Ageas' Azure APIM services
+        tagline: Ageas' tools and platform to automate multiple tasks within all instances of Ageas' Azure APIM services.
       - title: RMS DB Builder
-        tagline: CGI's proprietary tool to help configure assets on the RMS platform
+        tagline: CGI's proprietary tool to help configure assets on the RMS platform.
 
 oss:
     title: OSS Contributions
     intro: >
       Some open-sourced projects I'm currently working on:
     contributions:
-      - title: Wallet
+      - title: Wallet (alpha)
         link: "#"
-        tagline: Open-sourced personal wallet and budget manager, built with Blazor tech-stack
+        tagline: Open-sourced personal wallet and budget manager, built with Blazor tech-stack.
 
 skills:
     title: Skills &amp; Proficiency
