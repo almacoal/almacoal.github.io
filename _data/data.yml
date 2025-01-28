@@ -46,7 +46,7 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      I’ve always been a hands-on person, with an overarching pursuit for excellent delivery and proper feedback between my clients and colleagues. To achieve this, I have worked with several industries since 2008, to learn what led them further and what were their woes: from food manufacturing, to wind turbine construction abroad, electronic safety and homeland security, renewable energy, fintech, and now with insurance.
+      I’ve always been a hands-on person, with an overarching pursuit for excellent delivery and proper feedback between my clients and colleagues. To achieve this, I have worked with several industries since 2008, to learn what led them further and what were their woes: from food manufacturing, to wind turbine construction abroad, electronic safety and homeland security, renewable energy and utilities, fintech and insurance.
 education:
     title: Education
     info:
@@ -60,8 +60,16 @@ education:
 experiences:
     title: Experience
     info:
+      - role: Azure Tech-Owner and Solutions Architect
+        time: Jan 2025 - Present
+        company: Innowave, outsourced by Wire IT
+        location: Hybrid (Lisbon, Portugal)
+        details: |
+          Azure solutions architect and troubleshooter for all INW projects
+        # Ref.: AgentWave
+
       - role: Senior DevOps Engineer
-        time: May 2023 — Present
+        time: May 2023 — Oct 2024
         company: Innowave, for Ageas Portugal, outsourced by Wire IT
         location: Hybrid (Lisbon, Portugal)
         details: |
