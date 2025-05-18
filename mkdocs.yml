@@ -1,0 +1,32 @@
+site_name: Alexandre Alves' CV
+site_url: https://almacoal.net
+copyright: almacoal © 2025
+nav:
+  - Summary: index.md
+  - Education: education.md
+theme:
+  name: material
+  logo: assets/images/logo.png
+  favicon: assets/images/favicon.png
+  palette:
+    scheme: slate
+    primary: black
+    accent: amber
+  features:
+    - navigation.sections
+    - toc.integrate
+    - navigation.path
+    - navigation.indexes
+    - navigation.prune
+  custom_dir: overrides
+extra_css:
+- stylesheets/extra.css
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
