@@ -1,3 +1,7 @@
+---
+icon: material/account-file 
+---
+
 # Curriculum Vitae
 
 ![Profile](assets/images/profile.jpg){ align=right }
