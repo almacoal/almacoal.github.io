@@ -4,6 +4,7 @@ copyright: almacoal © 2025
 nav:
   - Summary: index.md
   - Current Work: current.md
+  - Experience: experience.md
   - Education: education.md
 theme:
   name: material
