@@ -2,7 +2,7 @@
 icon: material/book-education
 ---
 
-# Education
+# :material-book-education: Education
 
 <div class="grid cards" markdown>
 

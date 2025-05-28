@@ -2,7 +2,7 @@
 icon: material/account-file 
 ---
 
-# Curriculum Vitae
+# :material-account-file: Curriculum Vitae
 
 ![Profile](assets/images/profile.jpg){ align=right }
 > :material-smart-card: Alexandre "Alex" Alves
