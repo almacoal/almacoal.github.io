@@ -1,9 +1,15 @@
 # almacoal's Website
 
 ## Quick commands
-- `python -m mkdocs serve` for hot reload when changing features locally;
-- `python -m mkdocs gh-deploy` to deploy remotely
+- Local development hot-reload:
+```bash
+python -m mkdocs serve
+```
+- Local-to-remote deployment:
+```bash
+python -m mkdocs gh-deploy
+```
 
 ## Documentation
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+For full documentation visit [mkdocs.org](https://www.mkdocs.org) and [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/).
