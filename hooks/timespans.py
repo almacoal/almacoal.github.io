@@ -13,7 +13,7 @@ def get_timespan(start_date):
     diff = (end.year - start.year) * 12 + (end.month - start.month)
     return diff + "mo"
 
-def replace_dict(markdown, date):
+def replace_dict(markdown):
     new_markdown = markdown
     for key in date_dict:
         from_str = key + placeholder
@@ -22,4 +22,4 @@ def replace_dict(markdown, date):
     return new_markdown
 
 def on_page_markdown(markdown, **kwargs):
-    return replace_dict()
+    return replace_dict(markdown)
