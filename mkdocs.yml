@@ -1,11 +1,11 @@
 site_name: Alexandre Alves' CV
 site_url: https://almacoal.net
-copyright: almacoal © 2025
+copyright: almacoal &copy; 2025
 nav:
-  - Summary: index.md
-  - Current Work: current.md
-  - Experience: experience.md
-  - Education: education.md
+- Summary: index.md
+- Current Work: current.md
+- Experience: experience.md
+- Education: education.md
 theme:
   name: material
   logo: assets/images/logo.png
@@ -15,20 +15,22 @@ theme:
     primary: black
     accent: amber
   features:
-    - navigation.sections
-    - toc.integrate
-    - navigation.path
-    - navigation.indexes
-    - navigation.prune
+  - navigation.sections
+  - toc.integrate
+  - navigation.path
+  - navigation.indexes
+  - navigation.prune
   custom_dir: overrides
 extra_css:
 - stylesheets/extra.css
+hooks:
+- hooks/timespans.py
 markdown_extensions:
-  - attr_list
-  - md_in_html
-  - pymdownx.emoji:
-      emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg
-  - pymdownx.superfences
-  - pymdownx.tabbed:
-      alternate_style: true
+- attr_list
+- md_in_html
+- pymdownx.emoji:
+    emoji_index: !!python/name:material.extensions.emoji.twemoji
+    emoji_generator: !!python/name:material.extensions.emoji.to_svg
+- pymdownx.superfences
+- pymdownx.tabbed:
+    alternate_style: true
