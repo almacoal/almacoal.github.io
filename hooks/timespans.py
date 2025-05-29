@@ -11,7 +11,7 @@ def get_timespan(start_date):
     start = datetime.strptime(start_date, "%Y-%m-%d")
     end = datetime.today()
     diff = (end.year - start.year) * 12 + (end.month - start.month)
-    return diff + "mo"
+    return str(diff) + "mo"
 
 def replace_dict(markdown):
     new_markdown = markdown
