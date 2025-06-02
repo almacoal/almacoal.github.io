@@ -14,7 +14,16 @@ def get_timespan(start_date):
     diff = (end.year - start.year) * 12 + (end.month - start.month)
     yr_diff = math.floor(diff / 12)
     mo_diff = diff - yr_diff * 12 + (.5 if end.day - start.day > 15 else 0)
-    mo_str = str(mo_diff) + "mo"
+
+    temp = start.replace(year=start.year + yr_diff)
+    month_temp = temp.month + mo_diff
+    year_temp = temp.year + (month_temp - 1) // 12
+    month_temp = (month_temp - 1) % 12 + 1
+    temp = temp.replace(year=year_temp, month=month_temp)
+    day_diff = (end - temp).days
+
+    day_str = '.5' if day_diff > 15 else ''
+    mo_str = str(mo_diff) + day_str + "mo"
     yr_str = str(yr_diff) + "yr " + mo_str
     diff_str = mo_str if yr_diff <= 0 else yr_str
     return diff_str
