@@ -11,9 +11,9 @@ placeholder = " (On-going)"
 def get_timespan(start_date):
     start = datetime.strptime(start_date, "%Y-%m-%d")
     end = datetime.today()
-    diff = (end.year - start.year) * 12 + (end.month - start.month) + (1 if end.day - start.day > 15 else 0)
+    diff = (end.year - start.year) * 12 + (end.month - start.month)
     yr_diff = math.floor(diff / 12)
-    mo_diff = diff - yr_diff * 12
+    mo_diff = diff - yr_diff * 12 + (.5 if end.day - start.day > 15 else 0)
     mo_str = str(mo_diff) + "mo"
     yr_str = str(yr_diff) + "yr " + mo_str
     diff_str = mo_str if yr_diff <= 0 else yr_str
