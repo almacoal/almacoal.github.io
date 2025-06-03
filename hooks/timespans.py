@@ -2,7 +2,7 @@ from datetime import datetime
 import math
 
 date_dict = {
-    "Mar'25": "2025-03-08",
+    "Mar'25": "2025-03-05",
     "Oct'24": "2024-10-19",
     "May'23": "2023-05-08"
 }
@@ -22,7 +22,7 @@ def get_timespan(start_date):
     temp = temp.replace(year=year_temp, month=month_temp)
     day_diff = (end - temp).days
 
-    day_str = '.5' if day_diff > 15 else ''
+    day_str = '.5' if -15 < day_diff < 0 else ''
     mo_str = str(mo_diff) + day_str + "mo"
     yr_str = str(yr_diff) + "yr " + mo_str
     diff_str = mo_str if yr_diff <= 0 else yr_str
