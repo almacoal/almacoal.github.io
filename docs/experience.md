@@ -4,7 +4,7 @@ icon: material/briefcase-check
 
 # :material-briefcase-check: Experience
 
-## AI Cloud Architect
+## [AI Cloud Architect](experience/2503-ai-cloud-engineer.md)
 
 | Time | Company | Location |
 | --- | --- | --- |
