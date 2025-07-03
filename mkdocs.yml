@@ -4,7 +4,8 @@ copyright: almacoal &copy; 2025
 nav:
 - Summary: index.md
 - Current Work: current.md
-- Experience: experience.md
+- Experience:
+  - experience.md
   - AI Cloud Engineer: experience/2503-ai-cloud-engineer.md
 - Education: education.md
 theme:
@@ -19,11 +20,11 @@ theme:
     text: Atkinson Hyperlegible Next
     code: Atkinson Hyperlegible Mono
   features:
-  - navigation.sections
   - toc.integrate
-  - navigation.path
   - navigation.indexes
+  - navigation.path
   - navigation.prune
+  - navigation.sections
   custom_dir: overrides
 extra_css:
 - stylesheets/extra.css
