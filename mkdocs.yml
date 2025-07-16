@@ -6,7 +6,7 @@ nav:
 - Current Work: current.md
 - Experience:
   - experience.md
-  - AI Cloud Engineer: 2503-ai-cloud-engineer.md
+  - AI Cloud Engineer: docs/experience/2503-ai-cloud-engineer.md
 - Education: education.md
 theme:
   name: material
