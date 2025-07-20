@@ -3,9 +3,8 @@ site_url: https://almacoal.net
 copyright: almacoal &copy; 2025
 nav:
 - Summary: index.md
-- Current Work: current.md
 - Experience:
-  - experience.md
+  - experience/experience.md
   - AI Cloud Engineer: experience/2503-ai-cloud-engineer.md
 - Education: education.md
 theme:
@@ -18,7 +17,7 @@ theme:
     accent: amber
   font:
     text: Atkinson Hyperlegible Next
-    code: Atkinson Hyperlegible Mono
+    code: Atkinson Hyperlegible Code
   features:
   - toc.integrate
   - navigation.indexes

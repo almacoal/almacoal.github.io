@@ -6,7 +6,7 @@ icon: material/book-education
 
 <div class="grid cards" markdown>
 
-- :material-school: College Degree
+- ## :material-school: College Degree
 
     | Item | Value |
     | --: | :-- |
@@ -15,7 +15,7 @@ icon: material/book-education
     | Branch | Industrial Automation |
     | Active | 2007 — 2015 |
 
-- :material-message: Languages
+- ## :material-message: Languages
 
     | Language | Proficiency |
     | --: | :-- |
