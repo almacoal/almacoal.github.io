@@ -2,16 +2,19 @@
 icon: material/hail 
 ---
 
-# :material-hail: AI Cloud Engineer
+# :material-robot: AI Cloud Architect
+[:material-keyboard-backspace: Experience](../experience.md)
+&nbsp; [:material-forwardburger: Azure Tech-Owner](2410-azure-tech-owner.md)
 
 <div class="grid cards" markdown>
 
 - ## Functional description
-    Design, plan and envision the AI reusable core and use-case agents' architecture and its' cloud infrastructure. Empower development squads with technical knowledge and proof-of-concepts to further agent's technical debate.
 
-    | Since | Employer |
-    | --- | --- |
-    | Mar'25<br/>(On-going) | [NOS Technology](https://www.nos.pt/en/institutional/nos/about-nos/nos-group/nos-technology) | 
+    Design, plan and envision the AI reusable core and use-case agents' architecture and its cloud infrastructure. Empower development squads with technical knowledge and proof-of-concepts to support technical discussions about agents.
+
+    | Since | Employer | Location | Outsourced |
+    | --- | --- | --- | --- |
+    | Mar'25<br/>(On-going) | [NOS Technology](employers/nos-technology.md) | Lisbon (Hybrid) | Yes, by<br/>[Innowave](employers/innowave.md) |
 
 - ## Technical skills
 
@@ -25,7 +28,7 @@ icon: material/hail
     - Chat completions, inference, speech-to-text...
 
     ### Cloud
-    - Hypervisor: **[Google Cloud Platform (GCP)](https://cloud.google.com/)**;
+    - Hypervisor: **[Google Cloud Platform (GCP) :octicons-link-external-16:](https://cloud.google.com/)**;
     - Computing: **Cloud Run**;
     - Memory: **Redis Memorystore**
     - Storage: **Cloud Storage**;
@@ -39,7 +42,7 @@ icon: material/hail
     ### Diagrams
     - Diagram design;
     - Software modeling;
-      - [C4 model](https://www.c4model.com/)
+      - [C4 model :octicons-link-external-16:](https://www.c4model.com/)
     - Diagrams-as-code.
 
     ### Proof-of-concept
