@@ -2,10 +2,20 @@ from datetime import datetime
 import math
 
 date_dict = {
+    "Feb'08": '2008-02-06',
+    "Jul'10": '2010-07-14',
+    "Oct'11": '2011-10-28',
+    "Nov'11": '2011-11-16',
+    "Jan'12": '2012-01-31',
     "Jul'15": '2015-07-13',
-    "Mar'25": '2025-03-05',
+    "Aug'15": '2015-08-03',
+    "Aug'16": '2016-08-28',
+    "Nov'16": '2016-11-16',
+    "Oct'22": '2022-10-31',
+    "Mar'23": '2023-03-17',
+    "May'23": '2023-05-08',
     "Oct'24": '2024-10-21',
-    "May'23": '2023-05-08'
+    "Mar'25": '2025-03-05',
 }
 placeholder = '<br/>(On-going)'
 debug_ph = '<br/>(Debugging)'
@@ -55,6 +65,9 @@ def replace_dict(markdown):
         elif debug_ph in new_markdown:
             from_str = key + debug_ph
             to_str = key + '<br/>(' + get_timespan(date_dict[key], debugging=True) + ')'
+        else:
+            from_str = ""
+            to_str = ""
         new_markdown = new_markdown.replace(from_str, to_str)
     return new_markdown
 

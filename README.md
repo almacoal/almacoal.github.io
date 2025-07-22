@@ -12,4 +12,4 @@ python -m mkdocs gh-deploy
 
 ## Documentation
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org) and [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/).
+For full documentation, visit [mkdocs.org](https://www.mkdocs.org) and [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/).
