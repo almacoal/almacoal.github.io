@@ -1,6 +1,6 @@
 # :material-map: Azure APIM Manager
 [:material-keyboard-backspace: Experience](../experience.md)
-&nbsp; [:material-backburger: Azure Tech-Owner](2410-azure-tech-owner.md)
+&nbsp; [:material-forwardburger: Azure Tech-Owner](2410-azure-tech-owner.md)
 
 <div class="grid cards" markdown>
 
