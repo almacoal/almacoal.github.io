@@ -8,7 +8,7 @@ icon: material/briefcase-check
 | --- | --- | --- | --- |
 | :material-briefcase-clock: Mar'25<br/>(On-going) | [AI Cloud Architect](experience/2503-ai-cloud-architect.md) <!-- ScAIle --> | [NOS Technology](experience/employers/nos-technology.md) | Lisbon, Portugal (Hybrid) |
 | :material-briefcase-clock: Oct'24<br/>(On-going) | [Azure Tech-Owner & Senior DevOps Engineer](experience/2410-azure-tech-owner.md) <!-- AgentWave --> | [Innowave](experience/employers/innowave.md) | Lisbon, Portugal (Hybrid) |
-| :material-briefcase-check: May'23 — Oct'24<br/>(1yr 5mo) | Azure APIM Manager | [Ageas](experience/employers/ageas.md) <!-- Polaris --> | Lisbon, Portugal (Hybrid) |
+| :material-briefcase-check: May'23 — Oct'24<br/>(1yr 5mo) | [Azure APIM Manager](experience/2305-azure-apim-manager.md) | [Ageas](experience/employers/ageas.md) <!-- Polaris --> | Lisbon, Portugal (Hybrid) |
 | :material-briefcase-check: Oct'22 — Mar'23 | Senior Software Engineer (SE III) <!-- Marvels --> | NewDay | Remote |
 | :material-briefcase-check: Jul'21 — Oct'22 | Full-stack Developer & Team Lead <!-- Skipper --> | EDP Production | Lisbon, Portugal (Hybrid) |
 | :material-briefcase-check: Sep'19 — Oct'22 | Technical Consultant <!-- RMS40 & 36 --> | CGI | Lisbon, Portugal (Hybrid) |
