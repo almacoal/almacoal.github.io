@@ -1,7 +1,7 @@
 ---
 icon: material/briefcase-account
 ---
-s
+
 # :material-briefcase-account: Employers & Clients
 [:material-keyboard-backspace: Experience](../experience.md)
 
@@ -35,7 +35,7 @@ s
 
     <img src="../../assets/images/employers/logo-CGI.svg" width="213.3424" alt="CGI logo" />
 
-- :material-home-automation:{ .lg .middle } Vestas
+- :material-wind-power:{ .lg .middle } Vestas
 
     <img src="../../assets/images/employers/logo-Vestas.svg" width="493.75" alt="Vestas logo" />
 
