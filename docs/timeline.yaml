@@ -1,0 +1,131 @@
+today: &today 2025-09-02
+Mar25: &Mar25 2025-03-05
+Oct24-2: &Oct24-2 2024-10-21
+Oct24-1: &Oct24-1 2024-10-18
+May23: &May23 2023-05-08
+Mar23: &Mar23 2023-03-17
+Oct22-2: &Oct22-2 2022-10-31
+Oct22-1: &Oct22-1 2022-10-17
+Jul21: &Jul21 2021-07-19
+Mar20: &Mar20 2020-03-02
+Feb20: &Feb20 2020-02-28
+Sep19: &Sep19 2019-09-16
+Nov18: &Nov18 2018-11-16
+Nov16: &Nov16 2016-11-16
+Ago16: &Ago16 2016-08-26
+Ago15: &Ago15 2015-08-03
+Jul15: &Jul15 2015-07-13
+Jan12: &Jan12 2012-01-31
+Nov11: &Nov11 2011-11-16
+Oct11: &Oct11 2011-10-31
+Jul10: &Jul10 2010-07-01
+Feb08-2: &Feb08-2 2008-02-28
+Feb08-1: &Feb08-1 2008-02-06
+Sep07: &Sep07 2007-09-17
+
+::gantt::
+
+start: 2020-01-01
+
+activities:
+- title: Roles &<br/>Positions
+  activities:
+  - activities:
+    - title: AI & Cloud Architect
+      start: *Mar25
+      end:   *today
+    - title: Azure Tech-Owner
+      start: *Oct24-2
+      end:   *Mar25
+    - title: Azure APIM Manager
+      start: *May23
+      end:   *Oct24-1
+    - title: Senior Software Engineer (SE III)
+      start: *Oct22-2
+      end:   *Mar23
+    - title: Full-stack Developer & Team Lead
+      start: *Jul21
+      end:   *Oct22-1
+    - title: Technical Consultant
+      start: *Sep19
+      end:   *Jul21
+    - title: Technical Consultant
+      start: *Nov18
+      end:   *Sep19
+    - title: Junior Consultant
+      start: *Nov16
+      end:   *Nov18
+    - title: Project Manager
+      start: *Ago15
+      end:   *Ago16
+    - title: Wind Turbine Technician 
+      start: *Nov11
+      end:   *Jan12
+    - title: Front Desk Clerk
+      start: *Jul10
+      end:   *Oct11
+    - title: Automation Intern
+      start: *Feb08-1
+      end:   *Feb08-2
+  - activities:
+    - title: Senior DevOps Engineer
+      start: *May23
+      end:   *today
+    - title: Technical Consultant
+      start: *Nov18
+      end:   *Oct22-1
+
+- title: Clients &<br/>Employers
+  activities:
+  - activities:
+    - title: NOS
+      start: *Mar25
+      end:   *today
+    - title: Ageas Portugal
+      start: *May23
+      end:   *Oct24-1
+    - title: NewDay
+      start: *Oct22-2
+      end:   *Mar23
+    - title: EDP Production
+      start: *Jul21
+      end:   *Oct22-1
+    - title: Generg, Iberwind, Queiroz-Galvão, Total-Eren, Ventient, ...
+      start: *Mar20
+      end:   *Jul21
+    - title: EDP Renewables
+      start: *Nov16
+      end:   *Feb20
+    - title: Vestas
+      start: *Nov11
+      end:   *Jan12
+  - activities:
+    - title: Innowave
+      start: *May23
+      end:   *today
+    - title: YLD
+      start: *Oct22-2
+      end:   *Mar23
+    - title: CGI
+      start: *Nov16
+      end:   *Oct22-1
+    - title: Microsegur
+      start: *Ago15
+      end:   *Ago16
+    - title: LusoWindPower
+      start: *Nov11
+      end:   *Jan12
+    - title: BotameTinta
+      start: *Jul10
+      end:   *Oct11
+    - title: Unilever
+      start: *Feb08-1
+      end:   *Feb08-2
+  
+- title: Education
+  activities:
+  - title: B.Sc. in Electrical Engineering
+    start: *Sep07
+    end:   *Jul15
+
+::/gantt::
