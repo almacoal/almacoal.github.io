@@ -7,8 +7,9 @@ debug_ph = '<br/>(Debugging)'
 
 date_dict = {
     # On-going roles
-    "Mar'25": '2025-03-05',
-    "Oct'24": '2024-10-21',
+    "Mar'25": '2025-03-05', # NOS
+    "Oct'24": '2024-10-21', # Azure Tech-Owner
+    "May'23": '2023-05-08', # WireIT + INW
     # Career start
     "Jul'15": '2015-07-13'
 }
