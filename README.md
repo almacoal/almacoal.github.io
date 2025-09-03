@@ -1,4 +1,8 @@
 # almacoal's Website
+[![CI](https://github.com/almacoal/almacoal.github.io/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/almacoal/almacoal.github.io/actions/workflows/ci.yml)
+[![CodeQL](https://github.com/almacoal/almacoal.github.io/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/almacoal/almacoal.github.io/actions/workflows/github-code-scanning/codeql)
+[![CD](https://github.com/almacoal/almacoal.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/almacoal/almacoal.github.io/actions/workflows/pages/pages-build-deployment)
+
 
 ## Quick commands
 - Local development hot-reload:

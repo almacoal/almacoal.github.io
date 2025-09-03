@@ -39,7 +39,7 @@ icon: material/hail
     - Security: **Cloud Armor**;
     - AI: **Google Vertex.AI**.
 
-    ### Diagrams
+    ### Design
     - Diagram design;
     - Software modeling;
       - [C4 model :octicons-link-external-16:](https://www.c4model.com/)
