@@ -25,15 +25,12 @@ def get_ongoing_timespan(start_date, debugging=False, only_years=False):
     yr_diff = diff // 365
     mo_diff = round((diff % 365) / 30 * 2) / 2
     mo_str = f"{mo_diff:g}mo"
-    yr_str = str(yr_diff) + 'yr' if yr_diff > 0 else ''
+    yr_str = f"{yr_diff}yr" if yr_diff > 0 else ""
     diff_str = f"{yr_str} {mo_str}".strip()
     # print(f"aadbg> Start: {start}, End: {end}, Diff: {yr_str}{mo_str}")
 
-    if not only_years:
-        diff_str = mo_str if yr_diff <= 0 else yr_str
-    else:
+    if only_years:
         diff_str = str(yr_diff) + ('.5' if mo_diff >= 6 else '') + ' years'
-
     if debugging:
         diff_str += '<br/>`[{start} - {end} = {year_diff}yr {month_diff}mo]`'.format(
             start=start.strftime(DATE_FORMAT),
@@ -46,7 +43,7 @@ def get_ongoing_timespan(start_date, debugging=False, only_years=False):
 def replace_dict_dates(markdown):
     new_markdown = markdown
     for key in date_dict:
-        if key == "Jul'15":
+        if key == "Jul'15": # Career start
             from_str = key + placeholder.replace('<br/>', ' ')
             to_str = get_ongoing_timespan(date_dict[key], only_years=True)
         elif placeholder in new_markdown:
