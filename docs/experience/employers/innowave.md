@@ -6,4 +6,4 @@
 
 | Since | Website | Client of |
 | --- | --- | --- |
-| May'23<br/>(On-going) | [Innowave :octicons-link-external-16:](https://innowave.tech/cloud/) | [Wire IT](wire-it.md) |
+| May'23<br/>(On-going) | [Innowave :octicons-link-external-16:{ .md .middle }](https://innowave.tech/cloud/) | [Wire IT](wire-it.md) |

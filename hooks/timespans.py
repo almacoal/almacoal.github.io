@@ -48,10 +48,10 @@ def replace_dict_dates(markdown):
             to_str = get_ongoing_timespan(date_dict[key], only_years=True)
         elif placeholder in new_markdown:
             from_str = key + placeholder
-            to_str = key + ' :material-timer: ' + get_ongoing_timespan(date_dict[key])
+            to_str = key + ' :material-timer:{ .md .middle } ' + get_ongoing_timespan(date_dict[key])
         elif debug_ph in new_markdown:
             from_str = key + debug_ph
-            to_str = key + ' :material-timer: ' + get_ongoing_timespan(date_dict[key], debugging=True)
+            to_str = key + ' :material-timer:{ .md .middle } ' + get_ongoing_timespan(date_dict[key], debugging=True)
         else:
             from_str = ""
             to_str = ""
@@ -70,8 +70,8 @@ def on_pre_build(**kwargs):
         if match and match.group(1).strip() == today_str:
             return  # Already up to date, skip writing
     timeline_content = re.sub(
-        r"^define: &today [^\n]*",
-        f"define: &today {datetime.today().strftime(DATE_FORMAT)}",
+        r"^today: &today [^\n]*",
+        f"today: &today {datetime.today().strftime(DATE_FORMAT)}",
         timeline_content,
         flags=re.MULTILINE
     )

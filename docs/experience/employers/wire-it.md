@@ -6,4 +6,4 @@
 
 | Since | Website | Client of |
 | --- | --- | --- |
-| May'23<br/>(On-going) | [Wire IT :octicons-link-external-16:](https://wireit.pt/) | *None* |
+| May'23<br/>(On-going) | [Wire IT :octicons-link-external-16:{ .md .middle }](https://wireit.pt/) | *None* |

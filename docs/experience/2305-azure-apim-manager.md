@@ -15,7 +15,7 @@
 - ## Technical skills
 
     ### Cloud
-    - Hypervisor: **[Azure (Az) :octicons-link-external-16:](https://azure.microsoft.com/en-gb/)**;
-    - API Gateway: **[Azure API Management :octicons-link-external-16:](https://azure.microsoft.com/en-us/products/api-management)**
+    - Hypervisor: **[Azure (Az) :octicons-link-external-16:{ .md .middle }](https://azure.microsoft.com/en-gb/)**;
+    - API Gateway: **[Azure API Management :octicons-link-external-16:{ .md .middle }](https://azure.microsoft.com/en-us/products/api-management)**
 
 </div>

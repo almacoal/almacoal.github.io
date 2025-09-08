@@ -6,4 +6,4 @@
 
 | Between | Website | Outsourced |
 | --- | --- | --- |
-| May'23 — Oct'24<br/>(1yr 5mo) | [Ageas Portugal :octicons-link-external-16:](https://www.grupoageas.pt/) | [Innowave](innowave.md) |
+| May'23 — Oct'24<br/>(1yr 5mo) | [Ageas Portugal :octicons-link-external-16:{ .md .middle }](https://www.grupoageas.pt/) | [Innowave](innowave.md) |

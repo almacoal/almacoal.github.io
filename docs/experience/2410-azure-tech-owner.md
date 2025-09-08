@@ -20,7 +20,7 @@
 - ## Technical skills
 
     ### Cloud
-    - Hypervisor: **[Azure (Az) :octicons-link-external-16:](https://azure.microsoft.com/en-gb/)**;
-    - Infrastructure-as-Code: [Terraform :octicons-link-external-16:](https://developer.hashicorp.com/terraform/intro).
+    - Hypervisor: **[Azure (Az) :octicons-link-external-16:{ .md .middle }](https://azure.microsoft.com/en-gb/)**;
+    - Infrastructure-as-Code: [Terraform :octicons-link-external-16:{ .md .middle }](https://developer.hashicorp.com/terraform/intro).
 
 </div>

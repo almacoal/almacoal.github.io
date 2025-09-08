@@ -28,7 +28,7 @@ icon: material/hail
     - Chat completions, inference, speech-to-text...
 
     ### Cloud
-    - Hypervisor: **[Google Cloud Platform (GCP) :octicons-link-external-16:](https://cloud.google.com/)**;
+    - Hypervisor: **[Google Cloud Platform (GCP) :octicons-link-external-16:{ .md .middle }](https://cloud.google.com/)**;
     - Computing: **Cloud Run**;
     - Memory: **Redis Memorystore**
     - Storage: **Cloud Storage**;
@@ -42,7 +42,7 @@ icon: material/hail
     ### Design
     - Diagram design;
     - Software modeling;
-      - [C4 model :octicons-link-external-16:](https://www.c4model.com/)
+      - [C4 model :octicons-link-external-16:{ .md .middle }](https://www.c4model.com/)
     - Diagrams-as-code.
 
     ### Proof-of-concept
