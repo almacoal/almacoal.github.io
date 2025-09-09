@@ -1,11 +1,15 @@
 ---
-icon: material/hail 
+icon: material/hail
+tags:
+  - AI
+  - Architecture
+  - GCP
 ---
 
 # :material-robot: AI Cloud Architect
-[:material-keyboard-backspace: Experience](../experience.md)
+[:material-keyboard-backspace: Experience](index.md)
 &nbsp; [:material-forwardburger: Azure Tech-Owner](2410-azure-tech-owner.md)
-
+  
 <div class="grid cards" markdown>
 
 - ## Functional description

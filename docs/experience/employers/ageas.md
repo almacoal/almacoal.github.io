@@ -1,8 +1,8 @@
 # :material-briefcase-account: Ageas Portugal
-[:material-keyboard-backspace: Employers](../employers.md)
+[:material-keyboard-backspace: Employers](index.md)
+&nbsp; [:material-backburger: Azure APIM Manager](../2305-azure-apim-manager.md)
 
-
-<img src="../../../assets/images/employers/logo-Ageas.svg" width="443.3292" alt="Ageas Group Portugal logo" />
+<img src="../../../assets/images/employers/logo-Ageas.svg" alt="Ageas Group Portugal logo" style="height: 200px" />
 
 | Between | Website | Outsourced |
 | --- | --- | --- |

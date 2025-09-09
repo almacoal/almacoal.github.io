@@ -1,3 +1,13 @@
-body {
-  /* background: hsl(45, 00%, 09%); */
+body,
+.md-typeset {
+  font-family: 'Atkinson Hyperlegible Next', sans-serif;
+}
+
+code,
+pre,
+.md-typeset code,
+.md-typeset pre,
+.md-typeset .highlight,
+.md-typeset .highlight pre {
+  font-family: 'Atkinson Hyperlegible Code', monospace;
 }

@@ -4,9 +4,10 @@ copyright: almacoal &copy; 2025
 nav:
 - Introduction: index.md
 - Experience:
-  - experience.md
-  - Current: experience/2503-ai-cloud-architect.md
-  - Employers: experience/employers.md
+  - experience/index.md
+  - Current Role: experience/2503-ai-cloud-architect.md
+  - Employers: experience/employers/index.md
+  - Skills: skills.md
 - Education: education.md
 theme:
   name: material
@@ -22,9 +23,13 @@ theme:
   features:
   - navigation.expand
   - navigation.indexes
+  - navigation.instant
+  - navigation.instant.progress
   - navigation.path # Breadcrumbing for sponsors only
   - navigation.prune
   - navigation.sections
+  - navigation.tracking
+  - toc.follow
   - toc.integrate
   custom_dir: overrides
 extra_css:
@@ -42,3 +47,5 @@ markdown_extensions:
 - pymdownx.tabbed:
     alternate_style: true
 - neoteroi.projects
+plugins:
+  - tags

@@ -1,8 +1,8 @@
 # :material-briefcase-account: Innowave
-[:material-keyboard-backspace: Employers](../employers.md)
+[:material-keyboard-backspace: Employers](index.md)
 &nbsp; [:material-backburger: Azure Tech-Owner](../2410-azure-tech-owner.md)
 
-<img src="../../../assets/images/employers/logo-INW.svg" width="193" alt="Wire IT logo" />
+<img src="../../../assets/images/employers/logo-INW.svg" alt="Wire IT logo" style="height: 200px" />
 
 | Since | Website | Client of |
 | --- | --- | --- |

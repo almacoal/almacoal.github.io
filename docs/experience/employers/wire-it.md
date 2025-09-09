@@ -1,8 +1,8 @@
 # :material-briefcase-account: Wire IT
-[:material-keyboard-backspace: Employers](../employers.md)
+[:material-keyboard-backspace: Employers](index.md)
 
 
-<img src="../../../assets/images/employers/logo-Wire-IT.svg" width="266.0102" alt="Wire IT logo" />
+<img src="../../../assets/images/employers/logo-Wire-IT.svg" alt="Wire IT logo" style="height: 200px" />
 
 | Since | Website | Client of |
 | --- | --- | --- |

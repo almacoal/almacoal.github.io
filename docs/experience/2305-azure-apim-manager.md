@@ -1,5 +1,13 @@
+---
+icon: material/map
+tags:
+  - Azure
+  - API Gateway
+  - DevOps
+---
+
 # :material-map: Azure APIM Manager
-[:material-keyboard-backspace: Experience](../experience.md)
+[:material-keyboard-backspace: Experience](index.md)
 &nbsp; [:material-backburger: Azure Tech-Owner](2410-azure-tech-owner.md)
 
 <div class="grid cards" markdown>

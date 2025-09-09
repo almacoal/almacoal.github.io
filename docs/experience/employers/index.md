@@ -3,25 +3,25 @@ icon: material/briefcase-account
 ---
 
 # :material-briefcase-account: Employers & Clients
-[:material-keyboard-backspace: Experience](../experience.md)
+[:material-keyboard-backspace: Experience](../index.md)
 
 <div class="grid cards" markdown>
 
 - <img src="../../assets/images/employers/logo-NOS.svg" alt="NOS Technology logo" style="height: 100px" />
 
-    :material-robot:{ .lg .top } [NOS Technology](employers/nos-technology.md), since Mar'25<br/>(On-going)
+    :material-robot:{ .lg .top } [NOS Technology](nos-technology.md), since Mar'25<br/>(On-going)
 
 - <img src="../../assets/images/employers/logo-Ageas.svg" alt="Ageas Group Portugal logo" style="height: 100px" />
 
-    :material-application-import:{ .lg .top } [Ageas Portugal](employers/ageas.md), between May'23 — Oct'24 :material-timer: 1yr 5mo
+    :material-application-import:{ .lg .top } [Ageas Portugal](ageas.md), between May'23 — Oct'24 :material-timer: 1yr 5mo
 
 - <img src="../../assets/images/employers/logo-INW.svg" alt="Innowave logo" style="height: 100px" />
 
-    :material-cloud-cog:{ .lg .top } [Innowave](employers/innowave.md), since May'23<br/>(On-going)
+    :material-cloud-cog:{ .lg .top } [Innowave](innowave.md), since May'23<br/>(On-going)
 
 - <img src="../../assets/images/employers/logo-Wire-IT.svg" alt="Wire IT logo" style="height: 100px" />
 
-    :material-code-json:{ .lg .top } [Wire IT](employers/wire-it.md), since May'23<br/>(On-going)
+    :material-code-json:{ .lg .top } [Wire IT](wire-it.md), since May'23<br/>(On-going)
 
 - <img src="../../assets/images/employers/logo-NewDay.svg" alt="NewDay logo" style="height: 100px" />
 

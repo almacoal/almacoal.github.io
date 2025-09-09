@@ -1,9 +1,15 @@
-
-
-
+---
+icon: material/cloud-cog
+tags:
+  - AI
+  - Azure
+  - Architecture
+  - DevOps
+  - IaC
+---
 
 # :material-cloud-cog: Azure Tech-Owner
-[:material-keyboard-backspace: Experience](../experience.md)
+[:material-keyboard-backspace: Experience](index.md)
 &nbsp; [:material-backburger: AI Cloud Architect](2503-ai-cloud-architect.md)
 &nbsp; [:material-forwardburger: Azure APIM Manager](2305-azure-apim-manager.md)
 
