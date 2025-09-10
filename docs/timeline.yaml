@@ -1,4 +1,4 @@
-today: &today 2025-09-09
+today: &today 2025-09-11
 Mar25: &Mar25 2025-03-05
 Oct24-2: &Oct24-2 2024-10-21
 Oct24-1: &Oct24-1 2024-10-18
@@ -24,8 +24,6 @@ Feb08-1: &Feb08-1 2008-02-06
 Sep07: &Sep07 2007-09-17
 
 ::gantt::
-
-start: 2020-01-01
 
 activities:
 - title: Roles &<br/>Positions

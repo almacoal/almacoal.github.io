@@ -4,8 +4,6 @@ icon: material/puzzle-star
 
 # :material-puzzle-star: Skills
 
-
-
 <div class="grid cards" markdown>
 
 - ## :material-robot: Artificial Intelligence

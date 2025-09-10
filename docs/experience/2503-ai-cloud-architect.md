@@ -1,5 +1,5 @@
 ---
-icon: material/hail
+icon: material/robot
 tags:
   - AI
   - Architecture

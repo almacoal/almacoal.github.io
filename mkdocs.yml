@@ -5,10 +5,20 @@ nav:
 - Introduction: index.md
 - Experience:
   - experience/index.md
-  - Current Role: experience/2503-ai-cloud-architect.md
+  - Current Role:
+    - experience/2503-ai-cloud-architect.md
+    - experience/2410-azure-tech-owner.md
+  - Past Roles:
+    - experience/2305-azure-apim-manager.md
   - Employers: experience/employers/index.md
   - Skills: skills.md
 - Education: education.md
+not_in_nav: |
+  experience/employers/ageas.md
+  experience/employers/innowave.md
+  experience/employers/nos-technology.md
+  experience/employers/wire-it.md
+  hooks/timespans.md
 theme:
   name: material
   logo: assets/images/logo.png
