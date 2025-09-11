@@ -11,8 +11,8 @@ nav:
   - Past Roles:
     - experience/2305-azure-apim-manager.md
   - Employers: experience/employers/index.md
-  - Skills: skills.md
 - Education: education.md
+- Skills: skills.md
 not_in_nav: |
   experience/employers/ageas.md
   experience/employers/innowave.md

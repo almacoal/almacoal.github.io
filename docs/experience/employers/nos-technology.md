@@ -1,11 +1,3 @@
----
-icon: material/briefcase-account
-tags:
-  - AI
-  - Architecture
-  - GCP
----
-
 # :material-briefcase-account: NOS Technology
 [:material-keyboard-backspace: Employers](index.md)
 &nbsp; [:material-backburger: AI Cloud Architect](../2503-ai-cloud-architect.md)

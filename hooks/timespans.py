@@ -2,8 +2,8 @@ from datetime import datetime
 import re
 
 DATE_FORMAT = '%Y-%m-%d'
-placeholder = '<br/>(On-going)'
-debug_ph = '<br/>(Debugging)'
+PLACEHOLDER = '<br/>(On-going)'
+DEBUG_PLACEHOLDER = '<br/>(Debugging)'
 
 date_dict = {
     # On-going roles
@@ -24,19 +24,28 @@ def get_ongoing_timespan(start_date, debugging=False, only_years=False):
     diff = end_days - start_days
     yr_diff = diff // 365
     mo_diff = round((diff % 365) / 30 * 2) / 2
+    d_diff = diff % 365 // 30
+    d_str = f"{d_diff}d"
     mo_str = f"{mo_diff:g}mo"
     yr_str = f"{yr_diff}yr" if yr_diff > 0 else ""
     diff_str = f"{yr_str} {mo_str}".strip()
-    # print(f"aadbg> Start: {start}, End: {end}, Diff: {yr_str}{mo_str}")
+    if False:
+        print(f"aadbg> "
+                + f"{end.date()} - {start.date()} = "
+                + f"{('0' if diff < 1000 else '')}{('0' if diff < 100 else '')}{diff}"
+                + f", {'0' if diff // 365 < 10 else ''}{diff // 365}yr {diff - (diff // 365 * 365)}"
+                + f", {'0' if diff // 365 // 12 < 10 else ''}{diff // 365 // 12}mo {diff - (diff // 365 * 365) }"
+                )
 
     if only_years:
         diff_str = str(yr_diff) + ('.5' if mo_diff >= 6 else '') + ' years'
     if debugging:
-        diff_str += '<br/>`[{start} - {end} = {year_diff}yr {month_diff}mo]`'.format(
+        diff_str += '<br/>`[{end} - {start}`<br/>`= {year_diff}yr {month_diff}mo {day_diff}d]`'.format(
             start=start.strftime(DATE_FORMAT),
             end=end.strftime(DATE_FORMAT),
             year_diff=yr_diff,
-            month_diff=mo_diff
+            month_diff=mo_diff,
+            day_diff=d_diff
         )
     return diff_str
 
@@ -44,14 +53,14 @@ def replace_dict_dates(markdown):
     new_markdown = markdown
     for key in date_dict:
         if key == "Jul'15": # Career start
-            from_str = key + placeholder.replace('<br/>', ' ')
+            from_str = key + PLACEHOLDER.replace('<br/>', ' ')
             to_str = get_ongoing_timespan(date_dict[key], only_years=True)
-        elif placeholder in new_markdown:
-            from_str = key + placeholder
-            to_str = key + ' :material-timer:{ .md .middle } ' + get_ongoing_timespan(date_dict[key])
-        elif debug_ph in new_markdown:
-            from_str = key + debug_ph
-            to_str = key + ' :material-timer:{ .md .middle } ' + get_ongoing_timespan(date_dict[key], debugging=True)
+        elif PLACEHOLDER in new_markdown:
+            from_str = key + PLACEHOLDER
+            to_str = ':material-briefcase-clock:{ .middle } ' + key + '<br/>:material-timer:{ .md .middle } ' + get_ongoing_timespan(date_dict[key])
+        elif DEBUG_PLACEHOLDER in new_markdown:
+            from_str = key + DEBUG_PLACEHOLDER
+            to_str = ':material-briefcase-clock:{ .middle } ' + key + '<br/>:material-timer:{ .md .middle } ' + get_ongoing_timespan(date_dict[key], debugging=True)
         else:
             from_str = ""
             to_str = ""

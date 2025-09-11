@@ -20,13 +20,13 @@ tags:
     Manage, prepare and deploy cloud infrastructure for Azure projects. Coordinate cloud resources with development teams and service managers to accelerate their work. Continuously improve security and implement standard practices.
 
     | Since | Employer | Location | Outsourced |
-    | --- | --- | --- | --- |
-    | Oct'24<br/>(On-going) | [Innowave](employers/innowave.md) | Lisbon (Hybrid) | Yes, by<br/>[WireIT](employers/wire-it.md) |
+    | :---- | :------: | :------: | ---------: |
+    | Oct'24<br/>(On-going) | <img src="../../assets/images/employers/logo-INW.svg" alt="Innowave logo" style="height: 25px" /><br/>[Innowave](employers/innowave.md) | Lisbon<br/>(Hybrid) | Yes, by<br/>[WireIT](employers/wire-it.md) |
 
 - ## Technical skills
 
     ### Cloud
-    - Hypervisor: **[Azure (Az) :octicons-link-external-16:{ .md .middle }](https://azure.microsoft.com/en-gb/)**;
-    - Infrastructure-as-Code: [Terraform :octicons-link-external-16:{ .md .middle }](https://developer.hashicorp.com/terraform/intro).
+    - Hypervisor: **[Azure (Az) :octicons-link-external-16:{ .middle }](https://azure.microsoft.com/en-gb/)**;
+    - Infrastructure-as-Code: [Terraform :octicons-link-external-16:{ .middle }](https://developer.hashicorp.com/terraform/intro).
 
 </div>
