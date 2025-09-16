@@ -22,29 +22,34 @@ tags:
 
 - ## Technical skills
 
+    Worked with:
+
     ### Artificial intelligence (AI)
     - Large language models (LLM)
       - Azure OpenAI;
       - Google Gemini;
       - Anthropic Claude;
       - Perplexity;
-      - HuggingFace.
-    - Chat completions, inference, speech-to-text...
+      - HuggingFace open models.
+    - Speech models (SpLM)
+      - Ultravox;
+      - Gemini 2.5 Flash (& Lite).
+    - Chat completions, embedding, inference, speech-to-text, optical character recognition...
 
     ### Cloud
     - Hypervisor: **[Google Cloud Platform (GCP) :octicons-link-external-16:{ .middle }](https://cloud.google.com/)**;
     - Computing: **Cloud Run**;
-    - Memory: **Redis Memorystore**
+    - Memory: **Redis Memorystore**;
     - Storage: **Cloud Storage**;
     - Database: **Cloud SQL**, **PostgreSQL** and **MongoDB Atlas**;
     - Event Broker: **Cloud Pub/Sub**;
-    - Network: **Google Virtual Private Connection (VPC)**, **Cloud DNS**;
+    - Network: **Google Virtual Private Connection (VPC)** and **Cloud DNS**;
     - Optimization: **Cloud Load Balancer**;
     - Security: **Cloud Armor**;
-    - AI: **Google Vertex.AI**.
+    - AI: **Google Vertex.AI**, **Google Gemini**.
 
     ### Design
-    - Diagram design;
+    - Diagram documentation;
     - Software modeling;
       - [C4 model :octicons-link-external-16:{ .middle }](https://www.c4model.com/)
     - Diagrams-as-code.
