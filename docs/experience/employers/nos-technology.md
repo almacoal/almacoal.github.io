@@ -1,6 +1,9 @@
 # :material-briefcase-account: NOS Technology
-[:material-keyboard-backspace: Employers](index.md)
-&nbsp; [:material-backburger: AI Cloud Architect](../2503-ai-cloud-architect.md)
+<div class="links" markdown>
+  [:material-keyboard-backspace: Employers](index.md)
+  <div></div>
+  [AI Cloud Architect :material-backburger:](../2503-ai-cloud-architect.md)
+</div>
 
 <img src="../../../assets/images/employers/logo-NOS.svg" alt="NOS Technology logo" style="height: 200px" />
 

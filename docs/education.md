@@ -10,7 +10,7 @@ icon: material/book-education
 
     | Item | Value |
     | --: | :-- |
-    | School | ISEL<br/>Instituto Superior de Engenharia de Lisboa<br/>Portugal |
+    | School | <img src="../assets/images/education/logo-ISEL.png" alt="ISEL logo" /><br/>Portugal |
     | Course | Electrical Engineering, B.E. |
     | Branch | Industrial Automation |
     | Active | 2007 — 2015 |
@@ -31,7 +31,7 @@ icon: material/book-education
 - ## :material-certificate: Certifications
 
     | Topic | Badge | Course | Provider | Date |
-    | :-: | :-: | --- | --- | --- |
+    | --: | :-: | --- | --- | --- |
     | Cloud / Azure | <img src="https://images.credly.com/size/340x340/images/be8fcaeb-c769-4858-b567-ffaaa73ce8cf/image.png" style="height: 50px;" /> | [Microsoft Certified: Azure Fundamentals](https://www.credly.com/badges/3e77d235-bb78-443f-b73d-cc38de89d3d7) | Microsoft | Dec 30, 2022 |
     | Agile / Scrum | <img src="https://bcert.me/bc/html/img/badges/generated/badge-7230.png" style="height: 50px;" /> | [Certified Scrum Developer ® — CSD](https://bcert.me/shxzksrtv) | Scrum Alliance | Sep 09, 2022 |
     | IoT | <img src="../assets/images/education/azure-iot-academy-badge.png" style="height: 50px;" /> | Azure IoT Academy | Microsoft | Jun 30, 2022 |

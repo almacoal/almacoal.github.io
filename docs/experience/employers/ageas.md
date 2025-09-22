@@ -1,6 +1,9 @@
 # :material-briefcase-account: Ageas Portugal
-[:material-keyboard-backspace: Employers](index.md)
-&nbsp; [:material-backburger: Azure APIM Manager](../2305-azure-apim-manager.md)
+<div class="links" markdown>
+  [:material-keyboard-backspace: Employers](index.md)
+  <div></div>
+  [Azure APIM Manager :material-backburger:](../2305-azure-apim-manager.md)
+</div>
 
 <img src="../../../assets/images/employers/logo-Ageas.svg" alt="Ageas Group Portugal logo" style="height: 200px" />
 
