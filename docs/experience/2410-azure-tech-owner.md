@@ -9,9 +9,12 @@ tags:
 ---
 
 # :material-cloud-cog: Azure Tech-Owner
-[:material-keyboard-backspace: Experience](index.md)
-&nbsp; [:material-backburger: AI Cloud Architect](2503-ai-cloud-architect.md)
-&nbsp; [:material-forwardburger: Azure APIM Manager](2305-azure-apim-manager.md)
+<div class="links" markdown>
+  [:material-keyboard-backspace: Experience](index.md)
+  <div></div>
+  [AI Cloud Architect :material-backburger:](2503-ai-cloud-architect.md)
+  [:material-forwardburger: Azure APIM Manager](2305-azure-apim-manager.md)
+</div>
 
 <div class="grid cards" markdown>
 

@@ -11,3 +11,8 @@ pre,
 .md-typeset .highlight pre {
   font-family: 'Atkinson Hyperlegible Code', monospace;
 }
+
+.links {
+  display: flex;
+  justify-content: space-between;
+}

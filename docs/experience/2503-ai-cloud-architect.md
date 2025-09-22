@@ -7,8 +7,11 @@ tags:
 ---
 
 # :material-robot: AI Cloud Architect
-[:material-keyboard-backspace: Experience](index.md)
-&nbsp; [:material-forwardburger: Azure Tech-Owner](2410-azure-tech-owner.md)
+<div class="links" markdown>
+  [:material-keyboard-backspace: Experience](index.md)
+  <div></div>
+  [:material-forwardburger: Azure Tech-Owner](2410-azure-tech-owner.md)
+</div>
   
 <div class="grid cards" markdown>
 
