@@ -19,14 +19,14 @@ icon: material/book-education
 
     | Language | Proficiency |
     | --: | :-- |
-    | Portuguese | Native |
-    | English | Professional |
+    | Portuguese | **C2** Native |
+    | English | **C1** Professional |
 
     ### :material-city-switch: Countries employed
     | Country | Duration |
     | --: | :-- |
     | Portugal | Native |
-    | Germany | 3 mo |
+    | Germany | 2.5 mo |
 
 - ## :material-certificate: Certifications
 
