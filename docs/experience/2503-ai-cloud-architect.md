@@ -4,6 +4,7 @@ tags:
   - AI
   - Architecture
   - GCP
+  - Telco
 ---
 
 # :material-robot: AI Cloud Architect
