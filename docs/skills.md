@@ -22,4 +22,8 @@ icon: material/puzzle-star
 
     <!-- material/tags { include: [ Architecture ] } -->
 
+- ## :material-map-marker-path: Industries
+
+    <!-- material/tags { include: [ Telco, Insurance ] } -->
+
 </div>
