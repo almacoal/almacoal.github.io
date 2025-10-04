@@ -4,6 +4,7 @@ tags:
   - Azure
   - API Gateway
   - DevOps
+  - Insurance
 ---
 
 # :material-map: Azure APIM Manager
