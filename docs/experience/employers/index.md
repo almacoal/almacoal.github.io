@@ -30,13 +30,13 @@ icon: material/briefcase-account
 
 - <img src="../../assets/images/employers/logo-NewDay.svg" alt="NewDay logo" style="height: 100px" />
 
-    :material-code-json:{ .lg .top } NewDay, between<br/>
+    :material-code-json:{ .lg .top } [NewDay](newday.md), between<br/>
     :material-briefcase-check: Oct'22 — Mar'23<br/>
     :material-timer: 4.5mo
 
 - <img src="../../assets/images/employers/logo-YLD.svg" alt="YLD logo" style="height: 100px" />
 
-    :material-code-json:{ .lg .top } YLD, between<br/>
+    :material-code-json:{ .lg .top } [YLD](yld.md), between<br/>
     :material-briefcase-check: Oct'22 — Mar'23<br/>
     :material-timer: 4.5mo
 

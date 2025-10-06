@@ -10,14 +10,17 @@ nav:
     - experience/2410-azure-tech-owner.md
   - Past Roles:
     - experience/2305-azure-apim-manager.md
+    - experience/2210-senior-software-engineer-iii.md
   - Employers: experience/employers/index.md
 - Education: education.md
 - Skills: skills.md
 not_in_nav: |
   experience/employers/ageas.md
   experience/employers/innowave.md
+  experience/employers/newday.md
   experience/employers/nos-technology.md
   experience/employers/wire-it.md
+  experience/employers/yld.md
   hooks/timespans.md
 theme:
   name: material

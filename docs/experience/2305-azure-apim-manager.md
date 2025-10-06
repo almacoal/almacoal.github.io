@@ -12,6 +12,7 @@ tags:
   [:material-keyboard-backspace: Experience](index.md)
   <div></div>
   [Azure Tech-Owner :material-backburger:](2410-azure-tech-owner.md)
+  [:material-forwardburger: Senior Software Engineer](2210-senior-software-engineer-iii.md)
 </div>
 
 <div class="grid cards" markdown>

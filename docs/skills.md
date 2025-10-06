@@ -14,6 +14,10 @@ icon: material/puzzle-star
 
     <!-- material/tags { include: [ Cloud, Azure, GCP ] } -->
 
+- ## :material-file-document-edit: Project Management
+
+    <!-- material/tags { include: [ Jira, Confluence ] } -->
+
 - ## :material-office-building-cog: Software Infrastructure
 
     <!-- material/tags { include: [ API Gateway, DevOps, IaC ] } -->
@@ -24,6 +28,6 @@ icon: material/puzzle-star
 
 - ## :material-map-marker-path: Industries
 
-    <!-- material/tags { include: [ Telco, Insurance ] } -->
+    <!-- material/tags { include: [ Telco, Insurance, FinOps ] } -->
 
 </div>
