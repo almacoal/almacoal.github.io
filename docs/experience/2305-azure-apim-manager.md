@@ -18,7 +18,7 @@ tags:
 
 - ## Functional description
 
-    Coordinated API deployments and their publication through a central API gateway. Managed general cloud infrastructure and FinOps to allow efficient cloud resource deployment and proper company alignment.
+    Coordinated API deployments and their publication through a central API gateway. Managed additional cloud infrastructure and FinOps to allow efficient cloud resource deployment and proper company alignment.
 
     | Between | Employer | Location | Outsourced |
     | :------ | :------: | :------: | ---------: |

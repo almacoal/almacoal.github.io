@@ -24,7 +24,7 @@ def get_ongoing_timespan(start_date, debugging=False, only_years=False):
     diff = end_days - start_days
     yr_diff = diff // 365
     mo_diff = round((diff % 365) / 30 * 2) / 2
-    d_diff = diff % 365 // 30
+    d_diff = end.day - start.day
     d_str = f"{d_diff}d"
     mo_str = f"{mo_diff:g}mo"
     yr_str = f"{yr_diff}yr" if yr_diff > 0 else ""
