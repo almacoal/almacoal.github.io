@@ -28,6 +28,6 @@ icon: material/puzzle-star
 
 - ## :material-map-marker-path: Industries
 
-    <!-- material/tags { include: [ Telco, Insurance, FinOps ] } -->
+    <!-- material/tags { include: [ FinTech, Insurance, Telco ] } -->
 
 </div>
