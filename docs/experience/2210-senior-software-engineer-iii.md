@@ -5,7 +5,7 @@ tags:
   - API Gateway
   - Confluence
   - Jira
-  - FinOps
+  - FinTech
 ---
 
 # :material-bank: Senior Software Engineer
