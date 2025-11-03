@@ -44,6 +44,9 @@ theme:
   - navigation.tracking
   - toc.follow
   - toc.integrate
+  - search.suggest
+  - search.highlight
+  - search.share
   custom_dir: overrides
 extra_css:
 - stylesheets/extra.css
@@ -62,3 +65,4 @@ markdown_extensions:
 - neoteroi.projects
 plugins:
   - tags
+  - search
