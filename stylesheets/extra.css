@@ -1,0 +1,18 @@
+body,
+.md-typeset {
+  font-family: 'Atkinson Hyperlegible Next', sans-serif;
+}
+
+code,
+pre,
+.md-typeset code,
+.md-typeset pre,
+.md-typeset .highlight,
+.md-typeset .highlight pre {
+  font-family: 'Atkinson Hyperlegible Code', monospace;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+}
