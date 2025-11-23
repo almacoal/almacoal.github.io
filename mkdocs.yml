@@ -1,6 +1,7 @@
 site_name: Alexandre Alves' CV
 site_url: https://almacoal.net
 copyright: almacoal &copy; 2025
+site_author: Alexandre Alves
 nav:
 - Introduction: index.md
 - Experience:
@@ -14,6 +15,7 @@ nav:
   - Employers: experience/employers/index.md
   - Skills: skills.md
 - Education: education.md
+- Download PDF: almacoal-cv.pdf
 not_in_nav: |
   experience/employers/ageas.md
   experience/employers/innowave.md
@@ -66,3 +68,16 @@ markdown_extensions:
 plugins:
   - tags
   - search
+  - exporter:
+      formats:
+        pdf:
+          aggregator:
+            enabled: true
+            output: almacoal-cv.pdf
+            covers: none
+          concurrency: 16
+      buttons:
+        - title: Download as PDF
+          icon: material-file-download-outline
+          enabled: false #!!python/name:mkdocs_exporter.formats.pdf.buttons.download.enabled
+          attributes: !!python/name:mkdocs_exporter.formats.pdf.buttons.download.attributes

@@ -16,3 +16,16 @@ pre,
   display: flex;
   justify-content: space-between;
 }
+
+@page {
+  size: A4;
+  margin: .5cm;
+
+  @bottom-center {
+    content: "Page " counter(page) " of " counter(pages);
+  }
+
+	table {
+		border-collapse: collapse;
+  }
+}
