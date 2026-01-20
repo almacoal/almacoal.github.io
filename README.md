@@ -16,7 +16,7 @@ pip install mkdocs-exporter
 ```
 ## Local development hot-reload
 ```bash
-clear; python -m mkdocs serve
+clear; python -m mkdocs serve --livereload --watch-theme
 ```
 
 ## Documentation

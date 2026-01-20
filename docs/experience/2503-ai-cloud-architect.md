@@ -3,7 +3,11 @@ icon: material/robot
 tags:
   - AI
   - Architecture
+  - Outsourced
   - GCP
+  - IaC
+  - Kanban
+  - Python
   - Telco
 ---
 
@@ -22,22 +26,22 @@ tags:
 
     | Since | Employer | Location | Outsourced |
     | :---- | :------: | :------: | ---------: |
-    | Mar'25<br/>(On-going) | <img src="../../assets/images/employers/logo-NOS.svg" alt="NOS Technology logo" style="height: 25px" /><br/>[NOS Technology](employers/nos-technology.md) | Lisbon<br/>(Hybrid) | Yes, by<br/>[Innowave](employers/innowave.md) |
+    | Mar'25<br/>(On-going) | <img src="../../assets/images/employers/logo-NOS.svg" alt="NOS Technology logo" style="height: 25px" /><br/>[NOS Technology](employers/nos-technology.md) | Lisbon, Portugal<br/>(Hybrid) | Yes, by<br/>[Innowave](employers/innowave.md) |
 
 - ## Technical skills
 
-    Worked with:
-
     ### Artificial intelligence (AI)
-    - Large language models (LLM)
-      - Azure OpenAI;
-      - Google Gemini;
-      - Anthropic Claude;
-      - Perplexity;
-      - HuggingFace open models.
+    - Large Language Models (LLM)
+        - **[Azure OpenAI :octicons-link-external-16:{ .middle }](https://azure.microsoft.com/en-us/products/ai-foundry/models/openai/)**;
+        - **[Google Gemini :octicons-link-external-16:{ .middle }](https://gemini.google/about/)**;
+        - **[Anthropic Claude :octicons-link-external-16:{ .middle }](https://claude.com/product/overview)**;
+        - **[Perplexity :octicons-link-external-16:{ .middle }](https://www.perplexity.ai/help-center/en)**;
+        - **[HuggingFace open-weight models :octicons-link-external-16:{ .middle }](https://huggingface.co/)**;
+        - **[LangChain & LangGraph :octicons-link-external-16:{ .middle }](https://www.langchain.com/)**.
     - Speech models (SpLM)
-      - Ultravox;
-      - Gemini 2.5 Flash (& Lite).
+        - **[Ultravox :octicons-link-external-16:{ .middle }](https://www.ultravox.ai/)**;
+        - **[ElevenLabs :octicons-link-external-16:{ .middle }](https://elevenlabs.io/)**;
+        - **[Gemini :octicons-link-external-16:{ .middle }](https://gemini.google/about/)**.
     - Chat completions, embedding, inference, speech-to-text, optical character recognition...
 
     ### Cloud
@@ -46,7 +50,7 @@ tags:
     - Memory: **Redis Memorystore**;
     - Storage: **Cloud Storage**;
     - Database: **Cloud SQL**, **PostgreSQL** and **MongoDB Atlas**;
-    - Event Broker: **Cloud Pub/Sub**;
+    - Event broker: **Cloud Pub/Sub**;
     - Network: **Google Virtual Private Connection (VPC)** and **Cloud DNS**;
     - Optimization: **Cloud Load Balancer**;
     - Security: **Cloud Armor**;
@@ -54,13 +58,13 @@ tags:
 
     ### Design
     - Diagram documentation;
-    - Software modeling;
-      - [C4 model :octicons-link-external-16:{ .middle }](https://www.c4model.com/)
-    - Diagrams-as-code.
+    - Software modeling: **[C4 model :octicons-link-external-16:{ .middle }](https://www.c4model.com/)**;
+    - Diagrams-as-Code;
+    - Software Engineering.
 
-    ### Proof-of-concept
-    - Programming: **Python**;
-    - Git platform: **Github**;
-    - CI/CD: **Github Actions**.
+    ### Software
+    - Programming: **[Python :octicons-link-external-16:{ .middle }](https://www.python.org/)**;
+    - Repository: **[GitHub :octicons-link-external-16:{ .middle }](https://www.github.com/home)**;
+    - CI/CD: **[GitHub Actions :octicons-link-external-16:{ .middle }](https://github.com/features/actions)**.
 
 </div>

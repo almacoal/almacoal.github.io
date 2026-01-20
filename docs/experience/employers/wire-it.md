@@ -2,8 +2,8 @@
 <div class="links" markdown>
   [:material-keyboard-backspace: Employers](index.md)
   <div></div>
-  [AI Cloud Architect :material-backburger:](../2503-ai-cloud-architect.md)
-  [Azure Tech-Owner :material-backburger:](../2410-azure-tech-owner.md)
+  [AI Cloud Architect :material-backburger:](../2503-ai-cloud-architect.md)<br/>
+  [Azure Tech-Owner :material-backburger:](../2410-azure-tech-owner.md)<br/>
   [Azure APIM Manager :material-backburger:](../2305-azure-apim-manager.md)
 </div>
 

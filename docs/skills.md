@@ -6,6 +6,10 @@ icon: material/puzzle-star
 
 <div class="grid cards" markdown>
 
+- ## :material-map-marker-path: Industries
+
+    <!-- material/tags { include: [ FinTech, Insurance, Telco ] } -->
+
 - ## :material-robot: Artificial Intelligence
 
     <!-- material/tags { include: [ AI ] } -->
@@ -14,9 +18,9 @@ icon: material/puzzle-star
 
     <!-- material/tags { include: [ Cloud, Azure, GCP ] } -->
 
-- ## :material-file-document-edit: Project Management
+- ## :material-microsoft-visual-studio-code: Programming Languages & Frameworks
 
-    <!-- material/tags { include: [ Jira, Confluence ] } -->
+    <!-- material/tags { include: [ .NET, Python ] } -->
 
 - ## :material-office-building-cog: Software Infrastructure
 
@@ -26,8 +30,12 @@ icon: material/puzzle-star
 
     <!-- material/tags { include: [ Architecture ] } -->
 
-- ## :material-map-marker-path: Industries
+- ## :material-account-group: Methodology
 
-    <!-- material/tags { include: [ FinTech, Insurance, Telco ] } -->
+    <!-- material/tags { include: [ Kanban, Scrum ] } -->
+
+- ## :material-briefcase-variant: Contract
+
+    <!-- material/tags { include: [ Outsourced, Consultancy, Direct ] } -->
 
 </div>
