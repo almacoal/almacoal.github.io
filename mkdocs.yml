@@ -69,6 +69,7 @@ plugins:
   - tags
   - search
   - exporter:
+      enabled: false
       formats:
         pdf:
           aggregator:
