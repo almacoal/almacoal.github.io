@@ -11,4 +11,4 @@
 
 | Since | Website |
 | --- | --- |
-| May'23<br/>(On-going) | [Wire IT :octicons-link-external-16:{ .md .middle }](https://wireit.pt/) |
+| May'23 — Feb'26<br/>(2yr 10mo) | [Wire IT :octicons-link-external-16:{ .md .middle }](https://wireit.pt/) |

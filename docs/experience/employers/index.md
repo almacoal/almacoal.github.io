@@ -25,8 +25,9 @@ icon: material/briefcase-account
 
 - <img src="../../assets/images/employers/logo-Wire-IT.svg" alt="Wire IT logo" style="height: 100px" />
 
-    :material-code-json:{ .lg .top } [Wire IT](wire-it.md),
-    since<br/>May'23<br/>(On-going)
+    :material-code-json:{ .lg .top } [Wire IT](wire-it.md), between<br/>
+    :material-briefcase-check: May'23 — Feb'26<br/>
+    :material-timer: 2yr 10mo
 
 - <img src="../../assets/images/employers/logo-NewDay.svg" alt="NewDay logo" style="height: 100px" />
 
